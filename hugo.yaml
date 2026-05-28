@@ -1,0 +1,107 @@
+baseURL: "https://jmail482.github.io/makeovelry/"
+languageCode: "en-us"
+title: "makeovelry"
+theme: "PaperMod"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: "makeovelry"
+  description: "Independent SEO consultant. 14 years in. 6-year wealth advisory portfolio. AI-built marketing engines for healthcare, dental DSO, hospitality."
+  keywords:
+    - seo
+    - technical seo
+    - local seo
+    - schema
+    - marketing engine
+    - consultant
+    - Winnipeg
+    - Toronto
+  author: "Jonathan Nishikawa"
+
+  defaultTheme: "auto"
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  ShowToc: true
+  TocOpen: false
+  comments: false
+
+  label:
+    text: "makeovelry"
+
+  homeInfoParams:
+    Title: "Jonathan Nishikawa"
+    Content: >
+      Independent SEO consultant. 14 years in. 6-year wealth advisory portfolio
+      (2019-2025). Currently building AI marketing engines for dental DSO,
+      hospitality, and healthcare verticals. Based in Winnipeg, working remotely.
+
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/jonathan-nishikawa"
+    - name: email
+      url: "mailto:jmail482@gmail.com"
+    - name: github
+      url: "https://github.com/jmail482"
+    - name: rss
+      url: "/index.xml"
+
+  cover:
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: false
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archive
+      name: Archive
+      url: /archives/
+      weight: 30
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 40
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 50
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
