@@ -1,11 +1,11 @@
 ---
-title: "Distillery Events: when a brand gets eaten by a neighborhood entity it doesn't control"
+title: "Distillery Events: How a Toronto venue group is being eaten by a neighborhood entity it doesn't control"
 date: 2026-05-27T22:00:00-05:00
 draft: false
 tags: ["case study", "entity SEO", "schema", "hospitality", "Toronto"]
 categories: ["case studies"]
-description: "A Toronto multi-property venue group at 38.3% Signal Density. Google miscategorized the brand as a sub-attribute of the Distillery District neighborhood. Plus a homepage schema block claiming fabricated 5-star/500 reviews - active Google manual-action risk."
-summary: "Audit thesis: Google reads Distillery Events as a sub-attribute of the Distillery District neighborhood, not as a peer venue brand. Every symptom traces to one ontological error. Plus a fabricated review-schema block on the homepage carrying real penalty risk."
+description: "The brand SERP is being cannibalized by thedistillerydistrict.com. The audit found Google miscategorized Distillery Events as a sub-attribute of the Distillery District neighborhood — and a fabricated 5★/500-review schema block on the homepage that's an active Google manual-action risk."
+summary: "The brand SERP is being cannibalized by thedistillerydistrict.com. The audit found Google miscategorized Distillery Events as a sub-attribute of the Distillery District neighborhood — and a fabricated 5★/500-review schema block on the homepage that's an active Google manual-action risk. Full v3.1 marketing engine audit with 22 tabs and projected $233K–$382K 12-month revenue recovery."
 cover:
   image: ""
   alt: ""
