@@ -48,10 +48,14 @@ params:
 
   homeInfoParams:
     Title: "Jonathan Nishikawa"
-    Content: >
-      Independent SEO consultant. 14 years in. 6-year wealth advisory portfolio
-      (2019-2025). Currently building AI marketing engines for dental DSO,
-      hospitality, and healthcare verticals. Based in Winnipeg, working remotely.
+    Content: |
+      Independent SEO consultant. 14 years in. 6-year wealth advisory portfolio (2019–2025). Currently building AI marketing engines for dental DSO, hospitality, and healthcare verticals. Based in Winnipeg, working remotely.
+
+      **4 active engagements** · **14 years** · **138 KPI reports shipped**
+
+      ---
+
+      ## Recent Case Studies
 
   socialIcons:
     - name: linkedin
