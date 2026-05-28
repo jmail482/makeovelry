@@ -1,11 +1,11 @@
 ---
-title: "14 months at Position 0: the Bill 226 PR-as-SEO play"
+title: "Run With Rob: How a charity PR campaign won 14 months at Position 0 on Bill 226"
 date: 2026-05-18T16:00:00-05:00
 draft: false
 tags: ["case study", "PR", "featured snippet", "policy", "cause-driven"]
 categories: ["case studies"]
-description: "Rob Tetrault's Canadian CMB Foundation campaign supporting Bill 226 produced an EIN Presswire wire that captured Featured Snippet (Position 0) for ~14 months on the issue's primary query before domain migration."
-summary: "Cause-driven PR pipelines that produce real SERP control. The Bill 226 campaign - calling MPs to support a Multiple Myeloma research bill - won a Featured Snippet that held for over a year. Most consultants don't run this kind of integration."
+description: "The SEO outcome of Rob Tetrault's Canadian CMB Foundation campaign supporting Bill 226. An EIN Presswire wire achieved Featured Snippet (Position 0) on the issue's primary query for ~14 months before domain migration."
+summary: "The SEO outcome of Rob Tetrault's Canadian CMB Foundation campaign supporting Bill 226. An EIN Presswire wire achieved Featured Snippet (Position 0) on the issue's primary query for ~14 months before domain migration. The PR-as-SEO integration that most consultants under-leverage."
 ShowToc: true
 TocOpen: false
 ---
