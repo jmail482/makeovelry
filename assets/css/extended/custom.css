@@ -1,0 +1,50 @@
+.entry-meta-top {
+  font-size: 14px;
+  color: var(--secondary);
+  margin-bottom: 8px;
+}
+
+.post-entry h2 a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.post-entry h2 a:hover {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.entry-tags {
+  list-style: none;
+  padding: 0;
+  margin: 14px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.entry-tags li {
+  display: inline-block;
+}
+
+.entry-tags li a {
+  display: inline-block;
+  padding: 4px 12px;
+  background: var(--code-bg);
+  border-radius: 4px;
+  font-size: 13px;
+  color: var(--secondary);
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.entry-tags li a:hover {
+  background: var(--tertiary);
+  color: var(--primary);
+}
+
+.home-info .entry-content hr {
+  margin: 18px 0;
+  border: none;
+  border-top: 1px solid var(--border);
+}
