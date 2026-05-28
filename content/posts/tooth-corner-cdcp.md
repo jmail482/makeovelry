@@ -4,8 +4,8 @@ date: 2026-05-14T11:00:00-05:00
 draft: false
 tags: ["case study", "healthcare", "DSO", "CDCP", "programmatic SEO", "Ontario"]
 categories: ["case studies"]
-description: "Tooth Corner engagement - programmatic approach to Canadian dental DSO discoverability across the long tail of CDCP-driven patient acquisition. 30+ Ontario locations, multi-property hub architecture, mass-audit framework deployable across 130-client cohorts."
-summary: "Active marketing-engine engagement for a 30+ location Ontario dental DSO. Long-tail capture across 2,000+ CDCP-related autosuggest queries x 152 Canadian cities. Multi-location architecture + programmatic content + GBP relationship declarations."
+description: "Active Tooth Corner engagement: a programmatic approach to Canadian dental DSO discoverability across the long tail of CDCP-driven patient acquisition. 30+ Ontario locations, multi-property hub architecture, mass-audit framework deployable across 130-client cohorts."
+summary: "Active Tooth Corner engagement: a programmatic approach to Canadian dental DSO discoverability across the long tail of CDCP-driven patient acquisition. 30+ Ontario locations. Multi-property hub architecture + mass-audit framework deployable across 130-client cohorts."
 ShowToc: true
 TocOpen: false
 ---
