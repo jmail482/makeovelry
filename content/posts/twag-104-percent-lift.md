@@ -1,11 +1,11 @@
 ---
-title: "Six years, 33 cities, +104%: the Cloudflare + Argo deployment that lifted a wealth advisor from #6 to #2 nationally"
+title: "TWAG: Six years, 33 cities, and the +104% keyword lift that came from one Cloudflare config change"
 date: 2026-05-20T19:00:00-05:00
 draft: false
 tags: ["case study", "technical SEO", "multi-location", "wealth advisory", "Cloudflare"]
 categories: ["case studies"]
-description: "TWAG engagement retrospective. National 33-city location-page program. 26% to 55% top-100 ranked URL share. SEMrush-verified +104% keyword visibility lift from a Cloudflare + Argo Smart Routing deployment."
-summary: "The six-year wealth advisory engagement that put an anchor advisor at #2 on Wealth Professional Canada's Top-50 list, lifted top-100 ranked URL share from 26% to 55% across a national 33-city program, and delivered a SEMrush-verified +104% keyword visibility lift from one Cloudflare configuration change."
+description: "Anchor advisor went from #6 to #2 on Wealth Professional Canada's Top-50 list during the engagement. The national location-page program lifted top-100 ranked URL share from 26% to 55%. Cloudflare + Argo Smart Routing deployment delivered a SEMrush-verified 104% keyword visibility lift."
+summary: "Anchor advisor went from #6 to #2 on Wealth Professional Canada's Top-50 list during the engagement. The national location-page program lifted top-100 ranked URL share from 26% to 55%. Cloudflare + Argo Smart Routing deployment delivered a SEMrush-verified 104% keyword visibility lift after Google started favoring crawl-budget and mobile-first more aggressively."
 ShowToc: true
 TocOpen: false
 ---
