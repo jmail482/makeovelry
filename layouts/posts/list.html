@@ -1,16 +1,2 @@
 {{- define "main" }}
-<header class="page-header">
-  {{- partial "breadcrumbs.html" . }}
-  <h1>{{ .Title }}</h1>
-  {{- if .Description }}
-  <div class="post-description">
-    {{ .Description | markdownify }}
-  </div>
-  {{- end }}
-  {{- if .Content }}
-  <div class="post-content">
-    {{ .Content }}
-  </div>
-  {{- end }}
-</header>
 {{- end }}
