@@ -28,7 +28,7 @@ params:
     - Toronto
   author: "Jonathan Nishikawa"
 
-  defaultTheme: "auto"
+  defaultTheme: "light"
   disableThemeToggle: false
 
   ShowReadingTime: true
