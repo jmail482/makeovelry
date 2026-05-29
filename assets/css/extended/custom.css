@@ -1,23 +1,95 @@
+/* Match the desktop preview mock (theme_preview_makeovelry.html PaperMod column) */
+
+/* Bio/hero block */
+.home-info .entry-header h1 {
+  font-size: 24px;
+  letter-spacing: -0.4px;
+  margin-bottom: 10px;
+}
+
+.home-info .entry-content p {
+  font-size: 14.5px;
+  color: var(--secondary);
+}
+
+.home-info .entry-content hr {
+  margin: 22px 0 18px;
+  border: none;
+  border-top: 1px solid var(--border);
+}
+
+.home-info .entry-content h2 {
+  font-size: 17px;
+  font-weight: 700;
+  margin: 24px 0 12px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+  color: var(--primary);
+}
+
+/* Post list entries */
+.post-entry {
+  padding: 18px 0 !important;
+  border-bottom: 1px solid var(--border) !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
+.post-entry:last-child {
+  border-bottom: none !important;
+}
+
+.post-entry:hover {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
 .entry-meta-top {
+  font-size: 12px;
+  color: var(--secondary);
+  margin-bottom: 4px;
+}
+
+.post-entry .entry-header {
+  margin: 0;
+}
+
+.post-entry .entry-header h2 {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  margin: 0 0 6px 0 !important;
+  line-height: 1.35 !important;
+}
+
+.post-entry .entry-header h2 a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.post-entry .entry-header h2 a:hover {
+  color: var(--primary);
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+.post-entry .entry-content {
+  margin: 0 !important;
+  mask-image: none !important;
+}
+
+.post-entry .entry-content p {
   font-size: 14px;
   color: var(--secondary);
-  margin-bottom: 8px;
+  margin: 0;
+  line-height: 1.55;
 }
 
-.post-entry h2 a {
-  color: var(--primary);
-  text-decoration: none;
-}
-
-.post-entry h2 a:hover {
-  color: var(--primary);
-  text-decoration: none;
-}
-
+/* Tag chips — small, subtle, matching mock */
 .entry-tags {
   list-style: none;
   padding: 0;
-  margin: 14px 0 0 0;
+  margin: 8px 0 0 0;
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
@@ -29,22 +101,16 @@
 
 .entry-tags li a {
   display: inline-block;
-  padding: 4px 12px;
+  padding: 1px 8px;
   background: var(--code-bg);
-  border-radius: 4px;
-  font-size: 13px;
   color: var(--secondary);
+  border-radius: 3px;
+  font-size: 11px;
   text-decoration: none;
-  transition: background 0.2s;
+  border: none;
 }
 
 .entry-tags li a:hover {
   background: var(--tertiary);
-  color: var(--primary);
-}
-
-.home-info .entry-content hr {
-  margin: 18px 0;
-  border: none;
-  border-top: 1px solid var(--border);
+  color: var(--secondary);
 }
