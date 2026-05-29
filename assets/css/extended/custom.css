@@ -43,6 +43,7 @@
 .post-entry:hover {
   background: transparent !important;
   box-shadow: none !important;
+  transform: none !important;
 }
 
 .entry-meta-top {
@@ -73,16 +74,24 @@
   opacity: 0.75;
 }
 
+/* CRITICAL: disable PaperMod's 2-line line-clamp truncation on summaries */
 .post-entry .entry-content {
   margin: 0 !important;
   mask-image: none !important;
+  -webkit-mask-image: none !important;
 }
 
 .post-entry .entry-content p {
-  font-size: 14px;
-  color: var(--secondary);
-  margin: 0;
-  line-height: 1.55;
+  font-size: 14px !important;
+  color: var(--secondary) !important;
+  margin: 0 !important;
+  line-height: 1.55 !important;
+  display: block !important;
+  -webkit-line-clamp: unset !important;
+  -webkit-box-orient: unset !important;
+  overflow: visible !important;
+  text-overflow: clip !important;
+  white-space: normal !important;
 }
 
 /* Tag chips — small, subtle, matching mock */
