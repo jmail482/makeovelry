@@ -1,0 +1,11 @@
+{{- /* Force light mode. Override any user-toggled or auto-detected dark preference. */ -}}
+<script>
+(function () {
+  try { localStorage.removeItem('pref-theme'); } catch (e) {}
+  document.documentElement.dataset.theme = 'light';
+  if (document.body) document.body.classList.remove('dark');
+  document.addEventListener('DOMContentLoaded', function () {
+    document.body.classList.remove('dark');
+  });
+})();
+</script>

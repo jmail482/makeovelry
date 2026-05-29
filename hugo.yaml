@@ -29,7 +29,7 @@ params:
   author: "Jonathan Nishikawa"
 
   defaultTheme: "light"
-  disableThemeToggle: false
+  disableThemeToggle: true
 
   ShowReadingTime: true
   ShowShareButtons: false
