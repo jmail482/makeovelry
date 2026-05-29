@@ -1,4 +1,4 @@
-/* Match the desktop preview mock (theme_preview_makeovelry.html PaperMod column) */
+/* Match desktop preview mock (theme_preview_makeovelry.html PaperMod column) */
 
 /* Bio/hero block */
 .home-info .entry-header h1 {
@@ -27,25 +27,34 @@
   color: var(--primary);
 }
 
-/* Post list entries */
+/* === POST LIST ENTRIES === */
+
+/* Kill the card box — remove all sides border, background, radius, padding-x, margin */
 .post-entry {
   padding: 18px 0 !important;
-  border-bottom: 1px solid var(--border) !important;
+  margin: 0 !important;
   background: transparent !important;
   box-shadow: none !important;
+  border: none !important;
+  border-bottom: 1px solid var(--border) !important;
   border-radius: 0 !important;
+  transition: none !important;
+  transform: none !important;
 }
 
 .post-entry:last-child {
   border-bottom: none !important;
 }
 
-.post-entry:hover {
+.post-entry:hover,
+.post-entry:focus-within {
   background: transparent !important;
   box-shadow: none !important;
+  border-color: var(--border) !important;
   transform: none !important;
 }
 
+/* Meta line above title */
 .entry-meta-top {
   font-size: 12px;
   color: var(--secondary);
@@ -74,11 +83,17 @@
   opacity: 0.75;
 }
 
-/* CRITICAL: disable PaperMod's 2-line line-clamp truncation on summaries */
+/* CRITICAL: disable line-clamp on the entry-content DIV (the actual clipper) */
 .post-entry .entry-content {
   margin: 0 !important;
   mask-image: none !important;
   -webkit-mask-image: none !important;
+  overflow: visible !important;
+  display: block !important;
+  -webkit-box-orient: unset !important;
+  -webkit-line-clamp: unset !important;
+  font-size: 14px !important;
+  line-height: 1.55 !important;
 }
 
 .post-entry .entry-content p {
@@ -94,7 +109,7 @@
   white-space: normal !important;
 }
 
-/* Tag chips — small, subtle, matching mock */
+/* Tag chips */
 .entry-tags {
   list-style: none;
   padding: 0;
