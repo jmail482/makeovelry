@@ -1,6 +1,140 @@
-/* Darken body text from default PaperMod rgb(30,30,30) -> pure black */
-:root {
-    --primary: rgb(0, 0, 0);
-    --content: rgb(0, 0, 0);
-    --secondary: rgb(60, 60, 60);
+/* Match desktop preview mock (theme_preview_makeovelry.html PaperMod column) */
+
+/* Bio/hero block */
+.home-info .entry-header h1 {
+  font-size: 24px;
+  letter-spacing: -0.4px;
+  margin-bottom: 10px;
+}
+
+.home-info .entry-content p {
+  font-size: 14.5px;
+  color: var(--secondary);
+}
+
+.home-info .entry-content hr {
+  margin: 22px 0 18px;
+  border: none;
+  border-top: 1px solid var(--border);
+}
+
+.home-info .entry-content h2 {
+  font-size: 17px;
+  font-weight: 700;
+  margin: 24px 0 12px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+  color: var(--primary);
+}
+
+/* === POST LIST ENTRIES === */
+
+/* Kill the card box — remove all sides border, background, radius, padding-x, margin */
+.post-entry {
+  padding: 18px 0 !important;
+  margin: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  border-bottom: 1px solid var(--border) !important;
+  border-radius: 0 !important;
+  transition: none !important;
+  transform: none !important;
+}
+
+.post-entry:last-child {
+  border-bottom: none !important;
+}
+
+.post-entry:hover,
+.post-entry:focus-within {
+  background: transparent !important;
+  box-shadow: none !important;
+  border-color: var(--border) !important;
+  transform: none !important;
+}
+
+/* Meta line above title */
+.entry-meta-top {
+  font-size: 12px;
+  color: var(--secondary);
+  margin-bottom: 4px;
+}
+
+.post-entry .entry-header {
+  margin: 0;
+}
+
+.post-entry .entry-header h2 {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  margin: 0 0 6px 0 !important;
+  line-height: 1.35 !important;
+}
+
+.post-entry .entry-header h2 a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.post-entry .entry-header h2 a:hover {
+  color: var(--primary);
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+/* CRITICAL: disable line-clamp on the entry-content DIV (the actual clipper) */
+.post-entry .entry-content {
+  margin: 0 !important;
+  mask-image: none !important;
+  -webkit-mask-image: none !important;
+  overflow: visible !important;
+  display: block !important;
+  -webkit-box-orient: unset !important;
+  -webkit-line-clamp: unset !important;
+  font-size: 14px !important;
+  line-height: 1.55 !important;
+}
+
+.post-entry .entry-content p {
+  font-size: 14px !important;
+  color: var(--secondary) !important;
+  margin: 0 !important;
+  line-height: 1.55 !important;
+  display: block !important;
+  -webkit-line-clamp: unset !important;
+  -webkit-box-orient: unset !important;
+  overflow: visible !important;
+  text-overflow: clip !important;
+  white-space: normal !important;
+}
+
+/* Tag chips */
+.entry-tags {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.entry-tags li {
+  display: inline-block;
+}
+
+.entry-tags li a {
+  display: inline-block;
+  padding: 1px 8px;
+  background: var(--code-bg);
+  color: var(--secondary);
+  border-radius: 3px;
+  font-size: 11px;
+  text-decoration: none;
+  border: none;
+}
+
+.entry-tags li a:hover {
+  background: var(--tertiary);
+  color: var(--secondary);
 }
