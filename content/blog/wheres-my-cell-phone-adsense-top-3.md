@@ -4,7 +4,7 @@ date: 2026-05-28T10:30:00-05:00
 draft: false
 tags: ["case study", "independent SEO", "AdSense", "affiliate", "keyword research"]
 categories: ["case studies"]
-description: "Phone misplacement is a near-universal recurring experience. In 2013, only two websites provided substantive solutions. Jonathan built the third — ranked it to number two — and generated AdSense income for 15 months until Google absorbed the query with a native feature."
+description: "Phone misplacement is a near-universal recurring experience. In 2013, only two websites provided substantive solutions. A third was built — ranked to number two — and generated AdSense income for 15 months until Google absorbed the query with a native feature."
 summary: "wheresmycellphone.net ranked number two organically for its primary target query, outranking two authority-level competitor sites. AdSense generated weekly income for approximately 15 months. The income stream ended when Google launched its native Find My Phone feature directly in search results and absorbed the intent at the SERP level."
 cover:
   image: ""
@@ -16,13 +16,13 @@ TocOpen: false
 
 ## The opportunity
 
-The search query *where's my cell phone* generated substantial monthly search volume — phone misplacement is a near-universal, recurring experience. Jonathan's competitive research in 2013 found only two websites providing substantive solutions. The remainder of the SERP was thin, low-quality, or irrelevant. No established brand dominated the space.
+The search query *where's my cell phone* generated substantial monthly search volume — phone misplacement is a near-universal, recurring experience. Competitive research in 2013 found only two websites providing substantive solutions. The remainder of the SERP was thin, low-quality, or irrelevant. No established brand dominated the space.
 
 The query carried clear AdSense monetization potential: sustained high volume at near-zero customer acquisition cost, with an audience whose immediate problem made them receptive to adjacent suggestions.
 
 ## The build
 
-Jonathan built the site on WordPress under the author username Jon4822 and wrote all content himself. The content architecture addressed the core user problem across four distinct H2 sections, each covering a separate phone-location method: calling the device from another phone, locating it via internet-based call services, and two additional approaches targeting different intent layers within the same query cluster.
+The site was built on WordPress under the author username Jon4822, with all content written in-house. The content architecture addressed the core user problem across four distinct H2 sections, each covering a separate phone-location method: calling the device from another phone, locating it via internet-based call services, and two additional approaches targeting different intent layers within the same query cluster.
 
 Semantic optimization tools were applied to calibrate keyword relevance across the content. A PR5 anchor text backlink was acquired to reinforce the ranking position.
 

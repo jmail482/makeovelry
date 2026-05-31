@@ -24,7 +24,7 @@ The events business is being treated by Google as a feature of the neighborhood,
 
 ## The schema discovery (post-publication correction)
 
-The original v3 audit said "zero JSON-LD anywhere." That was wrong. A second LLM running the same audit caught what my crawler missed: the homepage carries a `Restaurant` schema block (wrong type for an events business) with a fabricated `aggregateRating: { "ratingValue": "5", "reviewCount": "500" }`.
+The original v3 audit said "zero JSON-LD anywhere." That was wrong. A second LLM running the same audit caught what the initial crawler missed: the homepage carries a `Restaurant` schema block (wrong type for an events business) with a fabricated `aggregateRating: { "ratingValue": "5", "reviewCount": "500" }`.
 
 Real GBP rating is 3.8 stars on 32 reviews. Yelp is 4.x on 86 reviews. There is no legitimate source for "5/500."
 
@@ -50,7 +50,7 @@ The unreplicable moat: **no other Toronto event venue has four sister restaurant
 | Tier-3 brand SERP + authority | Days 181-365 | $25K - $40K incremental |
 | **Cumulative 12-month** | - | **$233K - $382K** |
 
-## What I learned
+## Key takeaways
 
 WebFetch and SiteOne Crawler both missed the schema because they don't reliably scan `<script type="application/ld+json">` blocks. Always raw-fetch HTML and grep for `ld+json` as part of any schema audit going forward.
 
@@ -59,3 +59,4 @@ Independent LLM verification is now part of the methodology. One model running t
 ---
 
 *Full v3.1 marketing engine audit is a 22-tab interactive HTML deliverable (~170 KB). Available on request.*
+

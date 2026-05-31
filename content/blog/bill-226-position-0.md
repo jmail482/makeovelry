@@ -36,7 +36,7 @@ TocOpen: false
 
 ## Why most consultants don't run this play
 
-It requires a real cause. You can't manufacture one. The pipeline only works when the underlying story is true, the wire carries an actual newsworthy claim, and the owned property has genuine long-form coverage to anchor the snippet to.
+It requires a real cause. A genuine cause cannot be manufactured. The pipeline only works when the underlying story is true, the wire carries an actual newsworthy claim, and the owned property has genuine long-form coverage to anchor the snippet to.
 
 The shortcut version - buy a wire, syndicate generic content - doesn't work. Google's snippet extractor is good at distinguishing genuine policy/news coverage from astroturfed PR.
 
@@ -49,3 +49,4 @@ The 14-month hold was the engagement, not a permanent state. But it produced 14 
 ---
 
 *Verified via live Serper SERP test 2026-05-20 - Featured Snippet no longer present, attributable to post-engagement domain migration.*
+

@@ -4,8 +4,8 @@ date: 2026-05-28T12:30:00-05:00
 draft: false
 tags: ["case study", "technical SEO", "Angular", "AdSense", "crawl architecture"]
 categories: ["case studies"]
-description: "An AdSense-monetized games site had grown from a clean two-URL-per-game structure to four URL types, an indexed 404 page, and site-wide meta description duplication. Jonathan mapped the correct architecture, delivered a 301 redirect strategy, and flagged the UX imperative for ad-monetized properties."
-summary: "SpideyGames.com ran on Angular with AdSense monetization — a combination where every UX failure has a direct revenue cost. Jonathan identified the architectural drift, indexed 404, and duplication issues, then delivered a prioritized remediation plan with a link strategy grounded in referral traffic over backlink acquisition."
+description: "An AdSense-monetized games site had grown from a clean two-URL-per-game structure to four URL types, an indexed 404 page, and site-wide meta description duplication. The correct architecture was mapped, a 301 redirect strategy was delivered, and the UX imperative for ad-monetized properties was flagged."
+summary: "SpideyGames.com ran on Angular with AdSense monetization — a combination where every UX failure has a direct revenue cost. The architectural drift, indexed 404, and duplication issues were identified, and a prioritized remediation plan was delivered with a link strategy grounded in referral traffic over backlink acquisition."
 cover:
   image: ""
   alt: ""
@@ -22,7 +22,7 @@ AdSense monetization made user experience a direct financial consideration: poor
 
 **Advisory date: March 27–29, 2020. Platform: Angular. Implementation responsibility: Harish.**
 
-## What Jonathan mapped
+## Architecture mapping
 
 **Correct architecture:**
 - Home page → game-type category pages → game info pages and game play pages (leaf-level content)
@@ -33,11 +33,11 @@ AdSense monetization made user experience a direct financial consideration: poor
 - Four URL types where two served the crawl purpose — advised consolidation
 - Meta description duplication — systemic, not one-off
 
-## What Jonathan recommended
+## The recommendations
 
 - 301 redirect on the indexed 404 page to the correct destination
-- Shared the **Google Quality Raters Guide PDF** — a manual review of the site would be governed by these criteria, and Harish needed to understand the evaluator's lens
-- Provided an **SEO content editor tool** and advised learning it before making further content changes
+- The **Google Quality Raters Guide PDF** was shared — a manual review of the site would be governed by these criteria, and Harish needed to understand the evaluator's lens
+- An **SEO content editor tool** was provided with guidance to learn it before making further content changes
 - **Link strategy:** do not acquire backlinks until architecture is corrected. Instead, pursue partnerships with high-traffic gaming sites for referral traffic — audience-first, not link-first
 - Explicit flag: **AdSense monetization requires UX to be the primary design priority**, not a secondary concern
 
