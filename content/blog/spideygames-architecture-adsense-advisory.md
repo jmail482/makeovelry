@@ -4,8 +4,8 @@ date: 2026-05-28T12:30:00-05:00
 draft: false
 tags: ["case study", "technical SEO", "Angular", "AdSense", "crawl architecture"]
 categories: ["case studies"]
-description: "An AdSense-monetized games site had grown from a clean two-URL-per-game structure to four URL types, an indexed 404 page, and site-wide meta description duplication. Jonathan mapped the correct architecture, delivered a 301 redirect strategy, and flagged the UX imperative for ad-monetized properties."
-summary: "SpideyGames.com ran on Angular with AdSense monetization — a combination where every UX failure has a direct revenue cost. Jonathan identified the architectural drift, indexed 404, and duplication issues, then delivered a prioritized remediation plan with a link strategy grounded in referral traffic over backlink acquisition."
+description: "An AdSense-monetized games site had grown from a clean two-URL-per-game structure to four URL types, an indexed 404 page, and site-wide meta description duplication. The correct architecture was mapped, delivered a 301 redirect strategy, and flagged the UX imperative for ad-monetized properties."
+summary: "SpideyGames.com ran on Angular with AdSense monetization — a combination where every UX failure has a direct revenue cost. The architectural drift was identified, indexed 404, and duplication issues, then delivered a prioritized remediation plan with a link strategy grounded in referral traffic over backlink acquisition."
 cover:
   image: ""
   alt: ""
@@ -22,7 +22,7 @@ AdSense monetization made user experience a direct financial consideration: poor
 
 **Advisory date: March 27–29, 2020. Platform: Angular. Implementation responsibility: Harish.**
 
-## What Jonathan mapped
+## Architecture mapping
 
 **Correct architecture:**
 - Home page → game-type category pages → game info pages and game play pages (leaf-level content)
@@ -33,7 +33,7 @@ AdSense monetization made user experience a direct financial consideration: poor
 - Four URL types where two served the crawl purpose — advised consolidation
 - Meta description duplication — systemic, not one-off
 
-## What Jonathan recommended
+## Recommendations
 
 - 301 redirect on the indexed 404 page to the correct destination
 - Shared the **Google Quality Raters Guide** — a manual review of the site would be governed by these criteria[^2]
