@@ -5,7 +5,7 @@ draft: false
 tags: ["case study", "local SEO", "adult industry", "GBP", "citation building"]
 categories: ["case studies"]
 description: "Five Australian locations. Citation directories that decline adult content. GMB verification requiring exterior signage photos. Competitors stuffing search keywords into their GMB business names in violation of Google's guidelines — and Google not acting on reports. A standard local SEO template doesn't apply here."
-summary: "Daniel operated Cassie's across five Australian locations (NSW, Victoria, three additional states). The adult industry classification removed most standard local SEO tools from the available options. Jonathan delivered a prioritized plan that worked within those constraints — honest about what Google wasn't enforcing, specific about what could still be done."
+summary: "Daniel operated Cassie's across five Australian locations (NSW, Victoria, three additional states). The adult industry classification removed most standard local SEO tools from the available options. A prioritized plan was delivered that worked within those constraints — honest about what Google wasn't enforcing, specific about what could still be done."
 cover:
   image: ""
   alt: ""
@@ -33,7 +33,7 @@ The adult industry classification created real and documented limitations:
 
 The GMB profile was not optimized — the description was too short and lacked the keyword coverage needed to compete for primary service terms. Facebook and LinkedIn business pages were both absent, removing two significant authority backlink signals that don't carry adult content restrictions. BrightLocal citation management was already underway for Sydney.
 
-## What Jonathan recommended
+## The recommendations
 
 **GMB description:** Expand and optimize within category limitations.
 
@@ -41,7 +41,7 @@ The GMB profile was not optimized — the description was too short and lacked t
 
 **BrightLocal:** Continue citation completion for Sydney.
 
-**Competitor name-stuffing:** Jonathan addressed this directly. Google was not enforcing its own guidelines on this. His advice: **do not replicate the practice** — the long-term enforcement risk outweighs the short-term ranking advantage.
+**Competitor name-stuffing:** This was addressed directly. Google was not enforcing its own guidelines on this. The advice: **do not replicate the practice** — the long-term enforcement risk outweighs the short-term ranking advantage.
 
 **Secondary markets without a physical GBP listing:** A combination of on-page location targeting and blog posts optimized for location-plus-service keyword combinations. Indexable content addressing specific cities without requiring a GBP listing in each market.
 
