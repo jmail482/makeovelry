@@ -42,7 +42,7 @@ It requires a real cause. The pipeline only works when the underlying story is t
 
 The Featured Snippet stopped surfacing in mid-2025 — not because of an algorithm change, but because Rob's domain was migrated/rebranded after the wealth advisory engagement wound down [Serper SERP test, May 20, 2026][^3].
 
----
+## Sources
 
 [^1]: EIN Presswire. *Pricing.* einpresswire.com. $15/release pricing verified at time of campaign.
 [^2]: Google Search Central. *Featured Snippets and Your Website.* developers.google.com/search/docs/appearance/featured-snippets. Documents how Google selects content for featured snippet extraction.

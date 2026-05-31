@@ -34,7 +34,7 @@ For the AdWords campaign: the Panic Away affiliate offer, commission structure, 
 
 Evaluating a conversion offer's margin potential before committing ad budget is the step most operators skip. The AdWords campaign succeeded because the math was done first. The YouTube asset succeeded because a single piece of optimized content continued converting without additional spend.
 
----
+## Sources
 
 [^1]: Panic Away. Affiliate program via ClickBank. panicaway.com. Product by Barry McDonagh; affiliate commissions paid through ClickBank network at time of campaign.
 [^2]: Production records. AdWords campaign performance exports and YouTube Analytics data on file.

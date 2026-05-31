@@ -38,6 +38,6 @@ The page had demonstrated page rank and documented traffic volume [engagement re
 
 A well-ranked content asset retains sale value independent of whether its original monetization hypothesis proves correct. Ranking success and conversion success are separate outcomes that require separate validation.
 
----
+## Sources
 
 [^1]: Production records. Squidoo page performance and asset sale documented. Squidoo platform decommissioned 2014; archived content transferred to HubPages.

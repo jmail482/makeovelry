@@ -58,7 +58,7 @@ WebFetch and SiteOne Crawler both missed the schema because they don't reliably 
 
 Independent LLM verification is now part of the methodology. One model running the audit is a sanity check; two models running it independently is a verification.
 
----
+## Sources
 
 *Full v3.1 marketing engine audit is a 22-tab interactive HTML deliverable (~170 KB). Available on request.*
 

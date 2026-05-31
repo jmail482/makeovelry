@@ -91,7 +91,7 @@ At a 3% demo conversion rate [B2B SaaS benchmark, OpenView Partners, 2025][^4], 
 | 6 months | ~2,500 | ~62 |
 | 12 months | ~10,000 | ~250 |
 
----
+## Sources
 
 [^1]: SpyFu API. peak15systems.com competitive analysis and keyword ranking data, March 2026.
 [^2]: Demand Gen Report. *B2B Content Preferences Study*, 2025. Product-category and comparison page lead attribution figures.

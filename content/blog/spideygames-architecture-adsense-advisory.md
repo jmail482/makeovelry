@@ -43,7 +43,7 @@ SpideyGames.com was a free online games website monetized through Google AdSense
 
 Advisory delivered. Harish confirmed he had begun redirecting number-based URLs [engagement records, Mar 2020]. Angular implementation was Harish's responsibility throughout.
 
----
+## Sources
 
 [^1]: Google Search Central. *Search Quality Evaluator Guidelines.* Published guidance governing E-E-A-T assessment by Google's human quality raters.
 [^2]: Google. *AdSense Program Policies and UX Guidance.* support.google.com/adsense. Documents the relationship between site UX quality and ad serving performance.

@@ -56,7 +56,7 @@ All 11 tracked keywords showed green difficulty ratings (10–23 range) [SEO Pow
 
 Auto glass in BC is an insurance-paid category — ICBC covers windshield repair and replacement directly [ICBC Glass Repair Program Guide][^7]. The conversion bottleneck is not price or persuasion. It is visibility. The 24 items were a dependency chain, not a list.
 
----
+## Sources
 
 [^1]: SEO PowerSuite. *Rank Tracker v8.50.18.* link-assistant.com. Geo-located rank tracking configured from both Solo Glass business addresses (Langley and South Surrey) for the April 2026 audit.
 [^2]: SteerPoint. *Why Website Speed Is More Important Than Ever in 2025.* 2025. Documents 7% conversion reduction per additional second of page load time.

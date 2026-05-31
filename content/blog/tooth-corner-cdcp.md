@@ -45,7 +45,7 @@ Output per location: factor scorecard, competitor leaderboard, category visibili
 
 Active engagement, in flight. Mapping done. Architectural recommendations written. Deployment phase next — 30+ locations.
 
----
+## Sources
 
 [^1]: Government of Canada. *Canadian Dental Care Plan.* canada.ca/en/services/benefits/dental/dental-care-plan. Official program documentation including eligibility, phase rollout dates, and covered services.
 [^2]: Sterling Sky; Joy Hawkins. *Corporate Multi-Site Local SEO Reconciliation.* sterlingsky.ca. Methodology for managing GBP "Department of" relationships and corporate multi-location entity structure.

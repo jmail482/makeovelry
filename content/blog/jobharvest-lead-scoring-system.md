@@ -53,7 +53,7 @@ JobHarvest does not auto-apply. It does not send emails. It does not generate co
 
 No conversion-to-interview rate is documented. No offer data exists. The system's value is in the front-of-funnel: eliminating noise and surfacing leads worth manual time.
 
----
+## Sources
 
 [^1]: HOW_SCORING_WORKS.md. 688 lines. Documents the full scoring methodology, threshold rules, and exclusion logic.
 [^2]: Resume data sheet.txt and Resume.txt. Skills profile source files used for match scoring.

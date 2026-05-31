@@ -36,6 +36,6 @@ Google launched its native **Find My Phone** feature directly within search resu
 
 Ranking an exact-match domain against two weak incumbents on a high-volume informational query is repeatable. The risk is platform dependency: when Google decides a query intent is better served by a SERP feature, third-party content loses.
 
----
+## Sources
 
 [^1]: Internet Archive / Wayback Machine. wheresmycellphone.net. 27 captures documented between August 14, 2013 and September 12, 2017. web.archive.org.

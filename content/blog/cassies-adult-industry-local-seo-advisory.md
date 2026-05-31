@@ -45,7 +45,7 @@ The GMB profile was not optimised — the description was too short and lacked k
 
 Constraint mapping first — what's available, what isn't, and what can realistically be done within those limits — is the correct approach when standard playbook tools are unavailable.
 
----
+## Sources
 
 [^1]: Google. *Verify your Business Profile.* support.google.com/business. Documents verification methods including postcard, phone, video, and exterior business signage requirement.
 [^2]: Google. *Google Business Profile Name Guidelines.* support.google.com/business. Explicitly prohibits including keywords, location names, or promotional information in the business name field.

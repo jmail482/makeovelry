@@ -36,7 +36,7 @@ Why it worked: Argo reduced TTFB across the long tail of city-specific page-load
 - **Schema correctly applied is force-multiplier infrastructure.** Six years of pages with proper LocalBusiness + Service schema let the brand surface in dozens of intent classes.
 - **Performance optimization for SEO is about Google's crawlers' experience** [Cloudflare Argo][^4].
 
----
+## Sources
 
 *Engagement closed Nov 2025. Domain has since been migrated and rebranded — case-study data reflects the engagement-period state.*
 

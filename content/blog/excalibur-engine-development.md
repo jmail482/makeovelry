@@ -59,7 +59,7 @@ The Distillery Events V3.1 report: 22 tabs, full multi-module coverage, schema d
 
 Two live deployments are documented. Neither client has been tracked through full implementation of the audit roadmap. Revenue projections are modelled estimates — not realized outcomes.
 
----
+## Sources
 
 [^1]: SEO PowerSuite. *Rank Tracker v8.50.18.* link-assistant.com. Geo-located rank tracking from both Solo Glass business addresses.
 [^2]: Google Search Central. *Review Snippets Structured Data.* developers.google.com/search/docs/appearance/structured-data/review-snippet.

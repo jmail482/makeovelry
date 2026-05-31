@@ -100,7 +100,7 @@ Additional workflow templates: image generation, video generation, dashboard/rep
 - Keep writer and critic separate — never self-review
 - Do not burn premium tokens on bulk first-pass tasks
 
----
+## Sources
 
 [^1]: Ollama. *Local LLM Inference.* ollama.com. Open-source tool for running large language models locally via HTTP API. Used as a peer inference layer within the Zeus multi-agent stack.
 [^2]: Witsy. *Multi-Provider AI Client.* witsyai.com. Desktop AI client supporting multiple LLM providers via unified API routing. Configured at port 8090 within the Zeus infrastructure.

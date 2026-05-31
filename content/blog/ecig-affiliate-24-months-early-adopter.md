@@ -32,6 +32,6 @@ Ten brands were reviewed: Greensmoke (featured and recommended), Vaporzone, Whit
 
 Entry timing was the primary driver. The same site built two years later would not have achieved the same organic position or income duration. The early-adopter window closed as the category saturated.
 
----
+## Sources
 
 [^1]: Internet Archive / Wayback Machine. electroniccigarettebrands.weebly.com. Site archive confirms copyright notice 2008–2011, multi-section navigation structure, and Greensmoke featured placement. web.archive.org.

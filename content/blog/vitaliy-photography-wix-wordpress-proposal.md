@@ -46,7 +46,7 @@ On June 14, 2022, the **$1,000/month TWAG retainer rate** was disclosed directly
 
 A follow-up on September 4, 2022 indicated the proposal had not yet converted [engagement records, Sep 4, 2022]. Engagement status: proposal stage, no confirmed close.
 
----
+## Sources
 
 [^1]: Wix. *Wix SEO — Limitations and Capabilities.* support.wix.com. Wix's platform constraints around URL structure, canonical tags, and technical SEO customization are documented in their official support materials.
 [^2]: Engagement records. June 14, 2022 consultation notes on file. $1,000/month rate stated to Vitaliy Pysmennyy as a reference pricing point during proposal discussion.

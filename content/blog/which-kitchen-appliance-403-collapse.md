@@ -59,7 +59,7 @@ Roll back to the prior URL structure to restore indexed paths, then rebuild the 
 
 Sequencing the diagnosis correctly — rule out algorithm event first using raw GA data before diagnosing a technical cause — is the correct method for any unexplained ranking collapse.
 
----
+## Sources
 
 [^1]: SEMrush. Landscape report for whichkitchenappliance.com, Nov 24–30, 2021 and Dec 8, 2021. Keyword visibility, top-3/top-10/top-100 counts, average position, and estimated daily traffic on file.
 [^2]: Google Analytics. Session and user export for whichkitchenappliance.com, April 2021–January 2022. En-gb geographic segment.

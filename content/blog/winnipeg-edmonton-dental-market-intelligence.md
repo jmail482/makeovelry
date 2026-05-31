@@ -92,7 +92,7 @@ Co-payment structure [Government of Canada][^17]: under $70,000 income = zero co
 **Winnipeg full stack ($1,500/month):** Projected annual new patient revenue $468,000–$912,000. ROI 26–51×.
 **Edmonton neighbourhood dominance ($900/month):** Projected ROI 13–20×.
 
----
+## Sources
 
 [^1]: Overjet; Clerri. *Canadian Dental Industry Benchmarks 2024.*
 [^2]: IBISWorld. *Dentists in Canada — Industry Report*, 2024 and 2026 editions.

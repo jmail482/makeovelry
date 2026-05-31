@@ -73,7 +73,7 @@ jobs:
 
 21 posts live as of May 2026 across three groups: historical client case studies (Appendix B), recent audit and research case studies, and systems and infrastructure case studies.
 
----
+## Sources
 
 [^1]: Hugo. *Hugo Extended — Static Site Generator.* gohugo.io. Front matter draft flag behaviour and section list rendering documented in Hugo content management documentation.
 [^2]: Adityatelange. *PaperMod — Hugo Theme.* github.com/adityatelange/hugo-PaperMod. Open-source Hugo theme used for portfolio styling.

@@ -49,7 +49,7 @@ Each backend maintains a separate credit pool. The multiplexer tracks requests s
 
 Outputs go to `Auto Suggest Scraper V2/engine/` and `outputs/`. Each file contains: seed query, backend used, timestamp, raw autocomplete suggestions returned, and normalized suggestion list — compatible with downstream keyword clustering and intent classification pipelines.
 
----
+## Sources
 
 [^1]: Serper. *Google Search API.* serper.dev. JSON API for Google Search and Autocomplete results. Used as primary backend for Claude/Opus agent queries.
 [^2]: ScrapFly. *Web Scraping API.* scrapfly.io. Rotating proxy and scraping infrastructure used as primary backend for Haiku and G3/Qwen agent queries.

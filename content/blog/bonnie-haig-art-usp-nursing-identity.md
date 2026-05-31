@@ -50,7 +50,7 @@ The central recommendation: build Bonnie's identity around her **nursing profess
 
 Comprehensive marketing strategy assessment delivered [engagement records]. Implementation at the client's discretion.
 
----
+## Sources
 
 [^1]: Meta. *Facebook Business Pages — Overview.* facebook.com/business. Facebook Business Pages enable advertising, audience targeting, and commerce features not available on personal profiles.
 [^2]: Afremov, Leonid. leonidafremov.com. Palette-knife oil technique and emotionally charged colour palette — used here as a benchmark for USP clarity in visual art marketing.
