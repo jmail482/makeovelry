@@ -18,17 +18,17 @@ TocOpen: false
 
 **Project 1 — Panic Away AdWords campaign.** Panic Away was an established digital product in the anxiety and panic attack self-help category, sold through affiliate networks with commission rates sufficient to support paid traffic acquisition.[^1] The product had proven market demand.
 
-**Project 2 — Meditation software YouTube affiliate.** Separately, Jonathan identified YouTube as an emerging channel for affiliate content in the adjacent wellness and meditation software space.
+**Project 2 — Meditation software YouTube affiliate.** Separately, YouTube was identified as an emerging channel for affiliate content in the adjacent wellness and meditation software space.
 
-## What Jonathan evaluated before spending
+## Pre-spend evaluation
 
 For the AdWords campaign: the Panic Away affiliate offer, the commission structure, and the estimated CPC for anxiety and panic attack search queries in US metro markets. The question was whether the margin between commission and ad spend could be made positive through targeted campaign execution. It could.
 
 ## The execution
 
-**AdWords:** Jonathan built a targeted campaign with audience-matched ad copy. Self-funded. No agency. No significant starting capital.
+**AdWords:** A targeted campaign was built with audience-matched ad copy. Self-funded. No agency. No significant starting capital.
 
-**YouTube:** Jonathan produced a video promoting a meditation software affiliate product, optimized it for discovery within the wellness and self-help category, and placed affiliate links in the video description.
+**YouTube:** A video was produced promoting a meditation software affiliate product, optimized it for discovery within the wellness and self-help category, and placed affiliate links in the video description.
 
 ## The results
 
@@ -45,4 +45,4 @@ Evaluating a conversion offer's margin potential before committing ad budget is 
 *Channels: Google AdWords and YouTube. Affiliate products: Panic Away (anti-anxiety) and meditation software. Self-funded, no agency involvement. Campaign performance documented in production records.[^2]*
 
 [^1]: Panic Away. Affiliate program. panicaway.com. Product by Barry McDonagh; affiliate commissions documented via ClickBank network at time of campaign.
-[^2]: Jonathan Nishikawa production records. AdWords campaign performance exports and YouTube analytics on file.
+[^2]: Production records. AdWords campaign performance exports and YouTube analytics on file.
