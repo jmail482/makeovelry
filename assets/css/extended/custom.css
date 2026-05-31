@@ -109,34 +109,43 @@
   white-space: normal !important;
 }
 
-/* Tag chips */
+/* Traditional blog tags — plain inline text links */
 .entry-tags {
   list-style: none;
   padding: 0;
   margin: 8px 0 0 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
+  display: inline;
+  font-size: 13px;
+  color: var(--secondary);
+}
+
+.entry-tags::before {
+  content: "Tags: ";
+  color: var(--secondary);
+  font-size: 13px;
 }
 
 .entry-tags li {
-  display: inline-block;
+  display: inline;
+}
+
+.entry-tags li::after {
+  content: ", ";
+}
+
+.entry-tags li:last-child::after {
+  content: "";
 }
 
 .entry-tags li a {
-  display: inline-block;
-  padding: 1px 8px;
-  background: var(--code-bg);
   color: var(--secondary);
-  border-radius: 3px;
-  font-size: 11px;
   text-decoration: none;
-  border: none;
+  font-size: 13px;
 }
 
 .entry-tags li a:hover {
-  background: var(--tertiary);
-  color: var(--secondary);
+  color: #2563EB;
+  text-decoration: underline;
 }
 /* === CONSISTENT BACKGROUND ===
    PaperMod default: .list uses --code-bg (#F5F5F5), single pages use --theme (#FFFFFF).
