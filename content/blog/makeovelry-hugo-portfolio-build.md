@@ -5,7 +5,7 @@ draft: false
 tags: ["case study", "Hugo", "GitHub Pages", "portfolio", "web development"]
 categories: ["case studies"]
 description: "A static portfolio site built on Hugo with the PaperMod theme, deployed to GitHub Pages via a GitHub Actions CI/CD pipeline. From zero to 13 live case study posts in one working session — including diagnosis and fix of a structural rendering issue that was hiding the entire posts section."
-summary: "makeovelry.com is a STAR-format portfolio for Jonathan Nishikawa's SEO and digital marketing work, built on Hugo Extended with PaperMod, hosted on GitHub Pages at jmail482.github.io/makeovelry. The project documented every technical obstacle encountered: an empty _index.md hiding the posts section, a directory restructure that put case study posts in the wrong location, a Hugo server not installed locally, and the resolution via GitHub Actions automation."
+summary: "makeovelry.com is a STAR-format portfolio presenting SEO and digital marketing case studies, built on Hugo Extended with PaperMod, hosted on GitHub Pages at jmail482.github.io/makeovelry. The project documented every technical obstacle encountered: an empty _index.md hiding the posts section, a directory restructure that put case study posts in the wrong location, a Hugo server not installed locally, and the resolution via GitHub Actions automation."
 cover:
   image: ""
   alt: ""
