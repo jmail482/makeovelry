@@ -4,8 +4,8 @@ date: 2026-05-28T13:00:00-05:00
 draft: false
 tags: ["case study", "local SEO", "WordPress", "wedding photography", "proposal"]
 categories: ["case studies"]
-description: "Vitaliy Pysmennyy operated a 40-page Wix wedding photography site in Cleveland. Jonathan audited it, benchmarked against Mike Staff Productions in Detroit, and delivered a four-month $4,000 migration and SEO proposal. The engagement also independently verified the $1,000/month TWAG billing rate."
-summary: "A full competitive audit, phased WordPress migration plan, and $4,000 proposal delivered for a Cleveland wedding photographer whose Wix site was insufficient for meaningful SEO results. The engagement independently documented Jonathan's $1,000/month TWAG retainer rate — stated directly to the prospective client as a pricing reference on June 14, 2022."
+description: "Vitaliy Pysmennyy operated a 40-page Wix wedding photography site in Cleveland. The site was audited, benchmarked against Mike Staff Productions in Detroit, and a four-month $4,000 migration and SEO proposal. The engagement also independently verified the $1,000/month TWAG billing rate."
+summary: "A full competitive audit, phased WordPress migration plan, and $4,000 proposal delivered for a Cleveland wedding photographer whose Wix site was insufficient for meaningful SEO results. The engagement independently documented the $1,000/month TWAG retainer rate — stated directly to the prospective client as a pricing reference on June 14, 2022."
 cover:
   image: ""
   alt: ""
@@ -22,11 +22,11 @@ Vitaliy Pysmennyy operated a wedding photography business in Cleveland, Ohio wit
 
 ## The assessment
 
-Jonathan audited the site and delivered his assessment: **the Wix platform was insufficient for meaningful SEO results and WordPress was the correct foundation.** Wix's limitations in technical SEO — crawl structure, schema implementation, Core Web Vitals optimization, URL control — make it the wrong base for a competitive local search program.[^1]
+The site was audited and the assessment delivered: **the Wix platform was insufficient for meaningful SEO results and WordPress was the correct foundation.** Wix's limitations in technical SEO — crawl structure, schema implementation, Core Web Vitals optimization, URL control — make it the wrong base for a competitive local search program.[^1]
 
-**Competitive benchmark:** Jonathan audited mikestaff.com — Mike Staff Productions, a premier Detroit wedding services company — as the standard to close the gap against.
+**Competitive benchmark:** mikestaff.com was audited — Mike Staff Productions, a premier Detroit wedding services company — as the standard to close the gap against.
 
-**Live proof:** Jonathan referenced robtetrault.com as a working example of his own methodology applied to a national-reach site.
+**Live proof:** robtetrault.com was referenced as a working example of his own methodology applied to a national-reach site.
 
 ## The proposal
 
@@ -42,7 +42,7 @@ Full scope included WordPress setup, semantic SEO/copywriting, local citations, 
 
 ## What it verified
 
-On June 14, 2022, Jonathan disclosed the **$1,000/month TWAG retainer rate** directly to Vitaliy as a pricing reference point. This independently corroborates the TWAG billing rate at that point in the engagement — confirmed in a separate prospective client conversation, not in a TWAG document.[^2]
+On June 14, 2022, The **$1,000/month TWAG retainer rate** was disclosed directly to Vitaliy as a pricing reference point. This independently corroborates the TWAG billing rate at that point in the engagement — confirmed in a separate prospective client conversation, not in a TWAG document.[^2]
 
 ## The outcome
 
@@ -51,4 +51,4 @@ A follow-up on September 4, 2022 indicated the proposal had not yet converted. D
 ---
 
 [^1]: Wix. *Wix SEO — Limitations and Capabilities.* support.wix.com. Wix's platform constraints around URL structure, canonical tags, and technical SEO customization are documented in their official support materials.
-[^2]: Jonathan Nishikawa engagement records. June 14, 2022 consultation notes on file. $1,000/month rate stated to Vitaliy Pysmennyy as a reference pricing point during proposal discussion.
+[^2]: Engagement records. June 14, 2022 consultation notes on file. $1,000/month rate stated to Vitaliy Pysmennyy as a reference pricing point during proposal discussion.
