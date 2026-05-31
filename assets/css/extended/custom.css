@@ -138,3 +138,9 @@
   background: var(--tertiary);
   color: var(--secondary);
 }
+/* === CONSISTENT BACKGROUND ===
+   PaperMod default: .list uses --code-bg (#F5F5F5), single pages use --theme (#FFFFFF).
+   Override so all pages share the same background. */
+.list {
+  background: var(--theme) !important;
+}
