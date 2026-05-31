@@ -88,7 +88,7 @@ menu:
       url: /
       weight: 1
     - identifier: portfolio
-      name: Posts
+      name: Portfolio
       url: /posts/
       weight: 5
     - identifier: tags
