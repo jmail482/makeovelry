@@ -38,7 +38,7 @@ JobHarvest applies a documented scoring methodology (HOW_SCORING_WORKS.md, 688 l
 - Skills overlap against documented profile (Local SEO, Technical SEO, GBP, WordPress, Google Ads, Meta Ads)
 - Seniority signal from JD language and required years of experience
 
-**Resume sources used for matching:** Resume.txt, resume data sheet.txt, old stuff i could beef my resume up with.txt. Not Jonathan_Nishikawa_Resume.docx — the one-page format obscures experience depth that the scoring system needs to assess.
+**Resume sources used for matching:** Resume.txt, resume data sheet.txt, old stuff i could beef my resume up with.txt. Not the standard one-page resume file — the one-page format obscures experience depth that the scoring system needs to assess.
 
 ## Top leads identified
 
