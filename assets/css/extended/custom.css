@@ -78,9 +78,9 @@
 }
 
 .post-entry .entry-header h2 a:hover {
-  color: var(--primary);
+  color: #2563EB;
   text-decoration: none;
-  opacity: 0.75;
+  opacity: 1;
 }
 
 /* CRITICAL: disable line-clamp on the entry-content DIV (the actual clipper) */
@@ -143,4 +143,15 @@
    Override so all pages share the same background. */
 .list {
   background: var(--theme) !important;
+}
+
+/* === BLUE HOVER ON POST TITLES (entry-link overlay) === */
+.post-entry:hover .entry-header h2,
+.post-entry:focus-within .entry-header h2 {
+  color: #2563EB;
+}
+
+/* Nav menu hover */
+.nav a:hover {
+  color: #2563EB !important;
 }
