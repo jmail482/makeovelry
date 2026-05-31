@@ -50,7 +50,7 @@ An artist with a clear identity attracts an audience that self-selects. An artis
 
 - Establish a Facebook business page
 - Make selling intent explicit on the homepage
-- Build the email capture strategy around the positioned USP — not around a generic "join my list" prompt
+- Build the email capture strategy around the positioned USP — not around a generic "join the list" prompt
 
 ## The outcome
 
@@ -59,3 +59,4 @@ Comprehensive marketing strategy assessment delivered: goal clarity, commercial 
 ---
 
 *Engagement: Bonnie Haig, painter/visual artist. bonniehaig.com. Scope: digital marketing strategy and presence audit. Status: advisory delivered.*
+
