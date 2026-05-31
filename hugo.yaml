@@ -14,6 +14,8 @@ minify:
   minifyOutput: true
 
 params:
+  mainSections:
+    - blog
   env: production
   title: "makeovelry"
   description: "Independent SEO consultant. 14 years in. 6-year wealth advisory portfolio. AI-built marketing engines for healthcare, dental DSO, hospitality."
@@ -89,8 +91,12 @@ menu:
       weight: 1
     - identifier: portfolio
       name: Portfolio
-      url: /posts/
+      url: /portfolio/
       weight: 5
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 10
     - identifier: tags
       name: Tags
       url: /tags/
