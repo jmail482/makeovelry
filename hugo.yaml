@@ -89,7 +89,7 @@ menu:
       weight: 1
     - identifier: portfolio
       name: Portfolio
-      url: /posts/
+      url: /portfolio/
       weight: 5
     - identifier: blog
       name: Blog
