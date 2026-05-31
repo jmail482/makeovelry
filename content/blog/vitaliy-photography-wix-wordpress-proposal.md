@@ -16,21 +16,21 @@ TocOpen: false
 
 ## The situation
 
-Vitaliy Pysmennyy operated a wedding photography business in Cleveland, Ohio with a site built on the Wix platform — approximately 40 pages (22 posts, 5 category pages, and the remainder regular pages). His question was direct: was it worth trying to rank the existing Wix site, or did he need a complete rebuild?
+Vitaliy Pysmennyy operated a wedding photography business in Cleveland, Ohio with a site built on the Wix platform — approximately 40 pages (22 posts, 5 category pages, and the remainder regular pages) [site audit, Jun 2022]. His question was direct: was it worth trying to rank the existing Wix site, or did he need a complete rebuild?
 
 **Engagement: June 14–15, 2022 + September 4, 2022 follow-up.**
 
 ## The assessment
 
-Jonathan audited the site and delivered his assessment: **the Wix platform was insufficient for meaningful SEO results and WordPress was the correct foundation.** Wix's limitations in technical SEO — crawl structure, schema implementation, Core Web Vitals optimization, URL control — make it the wrong base for a competitive local search program.[^1]
+Jonathan audited the site and delivered his assessment: **the Wix platform was insufficient for meaningful SEO results and WordPress was the correct foundation** [site audit, Jun 2022][^1].
 
-**Competitive benchmark:** Jonathan audited mikestaff.com — Mike Staff Productions, a premier Detroit wedding services company — as the standard to close the gap against.
+**Competitive benchmark:** Jonathan audited mikestaff.com (Mike Staff Productions, Detroit) as the standard to close the gap against [competitive audit, Jun 2022].
 
-**Live proof:** Jonathan referenced robtetrault.com as a working example of his own methodology applied to a national-reach site.
+**Live proof:** Jonathan referenced robtetrault.com as a working example of his own methodology applied to a national-reach site [engagement records].
 
 ## The proposal
 
-**Four months. $4,000 total. Includes a $500 link-building budget.**
+**Four months. $4,000 total. Includes a $500 link-building budget** [proposal on file, Jun 2022].
 
 | Phase | Timeline | Scope |
 |---|---|---|
@@ -38,15 +38,13 @@ Jonathan audited the site and delivered his assessment: **the Wix platform was i
 | Phase 2 | Weeks 4–9 | Local citation building, strategic backlinks |
 | Phase 3 | Weeks 10–12 | Expected ranking changes for primary Cleveland wedding photography keywords |
 
-Full scope included WordPress setup, semantic SEO/copywriting, local citations, GMB optimization, backlink strategy, and CRO: lead magnets, email list building, and conversion tracking.
-
 ## What it verified
 
-On June 14, 2022, Jonathan disclosed the **$1,000/month TWAG retainer rate** directly to Vitaliy as a pricing reference point. This independently corroborates the TWAG billing rate at that point in the engagement — confirmed in a separate prospective client conversation, not in a TWAG document.[^2]
+On June 14, 2022, Jonathan disclosed the **$1,000/month TWAG retainer rate** directly to Vitaliy as a pricing reference point [engagement records, Jun 14, 2022][^2]. This independently corroborates the TWAG billing rate at that point in the engagement — confirmed in a separate prospective client conversation, not in a TWAG document.
 
 ## The outcome
 
-A follow-up on September 4, 2022 indicated the proposal had not yet converted. Documented as a thorough consultation and proposal — competitive research, clear strategic direction, and live proof of methodology. Engagement status: proposal stage, no confirmed close.
+A follow-up on September 4, 2022 indicated the proposal had not yet converted [engagement records, Sep 4, 2022]. Engagement status: proposal stage, no confirmed close.
 
 ---
 

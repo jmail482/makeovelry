@@ -5,7 +5,7 @@ draft: false
 tags: ["case study", "independent SEO", "AdSense", "affiliate", "keyword research"]
 categories: ["case studies"]
 description: "Phone misplacement is a near-universal recurring experience. In 2013, only two websites provided substantive solutions. Jonathan built the third — ranked it to number two — and generated AdSense income for 15 months until Google absorbed the query with a native feature."
-summary: "wheresmycellphone.net ranked number two organically for its primary target query, outranking two authority-level competitor sites. AdSense generated weekly income for approximately 15 months. The income stream ended when Google launched its native Find My Phone feature directly in search results and absorbed the intent at the SERP level."
+summary: "wheresmycellphone.net ranked number two organically for its primary target query, outranking two authority-level competitor sites. AdSense generated weekly income for approximately 15 months. The income stream ended when Google launched its native Find My Phone feature directly in search results."
 cover:
   image: ""
   alt: ""
@@ -16,25 +16,25 @@ TocOpen: false
 
 ## The opportunity
 
-The search query *where's my cell phone* generated substantial monthly search volume — phone misplacement is a near-universal, recurring experience. Jonathan's competitive research in 2013 found only two websites providing substantive solutions. The remainder of the SERP was thin, low-quality, or irrelevant. No established brand dominated the space.
+The search query *where's my cell phone* generated substantial monthly search volume. Jonathan's competitive research in 2013 found only two websites providing substantive solutions. The remainder of the SERP was thin, low-quality, or irrelevant. No established brand dominated the space.
 
 ## The build
 
-Jonathan built the site on WordPress under the author username Jon4822 and wrote all content himself. Content architecture addressed the core user problem across four distinct H2 sections, each covering a separate phone-location method. Semantic optimization tools were applied. A PR5 anchor text backlink was acquired to reinforce the ranking position.
+Jonathan built the site on WordPress under the author username Jon4822 and wrote all content himself. Content architecture addressed the core user problem across four distinct H2 sections. Semantic optimization tools were applied. A PR5 anchor text backlink was acquired to reinforce the ranking position [engagement records, 2013].
 
 ## The result
 
-The site ranked in the **top 3 organic positions**, achieving the **number-two position at peak** — outranking the two authority-level competitor websites that had previously owned the space.
+The site ranked in the **top 3 organic positions**, achieving the **number-two position at peak** [engagement records, 2013–2015].
 
-Google AdSense generated **weekly income for approximately 15 months** from sustained organic traffic.
+Google AdSense generated **weekly income for approximately 15 months** from sustained organic traffic [engagement records].
 
 ## What ended it
 
-Google launched its native **Find My Phone** feature directly within search results. The query intent was absorbed at the SERP level, and third-party sites providing the same answer lost their traffic source. The site remained live from August 2013 through September 2017.[^1]
+Google launched its native **Find My Phone** feature directly within search results. The site remained live from August 2013 through September 2017 — 27 captures documented [Internet Archive / Wayback Machine][^1].
 
 ## The lesson
 
-Ranking an exact-match domain against two weak incumbents on a high-volume informational query is repeatable. The risk is platform dependency: when Google decides a query intent is better served by a SERP feature, third-party content loses. The 15-month window was real income — but the exit wasn't voluntary.
+Ranking an exact-match domain against two weak incumbents on a high-volume informational query is repeatable. The risk is platform dependency: when Google decides a query intent is better served by a SERP feature, third-party content loses.
 
 ---
 

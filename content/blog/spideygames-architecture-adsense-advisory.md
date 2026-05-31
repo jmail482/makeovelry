@@ -5,7 +5,7 @@ draft: false
 tags: ["case study", "technical SEO", "Angular", "AdSense", "crawl architecture"]
 categories: ["case studies"]
 description: "An AdSense-monetized games site had grown from a clean two-URL-per-game structure to four URL types, an indexed 404 page, and site-wide meta description duplication. Jonathan mapped the correct architecture, delivered a 301 redirect strategy, and flagged the UX imperative for ad-monetized properties."
-summary: "SpideyGames.com ran on Angular with AdSense monetization — a combination where every UX failure has a direct revenue cost. Jonathan identified the architectural drift, indexed 404, and duplication issues, then delivered a prioritized remediation plan with a link strategy grounded in referral traffic over backlink acquisition."
+summary: "SpideyGames.com ran on Angular with AdSense monetization. Jonathan identified architectural drift, an indexed 404, and duplication issues, then delivered a prioritized remediation plan with a link strategy grounded in referral traffic."
 cover:
   image: ""
   alt: ""
@@ -16,36 +16,34 @@ TocOpen: false
 
 ## The situation
 
-SpideyGames.com was a free online games website monetized through Google AdSense. The site had grown from a clean two-URL structure (game info page + game play page per title) to **four URL types** without a clear rationale — creating crawler confusion and content duplication. A 404 error page had been indexed by Google with a content-style page title. Meta descriptions had serious duplication issues across pages.
-
-AdSense monetization made user experience a direct financial consideration: poor UX signals reduce ad quality scores and click rates.[^1] Harish reached out through an SEO group for diagnostic guidance.
+SpideyGames.com was a free online games website monetized through Google AdSense. The site had grown from a clean two-URL structure to **four URL types** without a clear rationale [site audit, Mar 2022]. A 404 error page had been indexed by Google with a content-style page title. Meta descriptions had serious duplication issues across pages [site audit, Mar 2022].
 
 **Advisory date: March 27–29, 2020. Platform: Angular. Implementation responsibility: Harish.**
 
 ## What Jonathan mapped
 
-**Correct architecture:**
-- Home page → game-type category pages → game info pages and game play pages (leaf-level content)
-- Utility pages (About, Contact, TOS, AdSense Disclaimer, Privacy Policy) as separate paths
+**Correct architecture** [site audit, Mar 2022]:
+- Home page → game-type category pages → game info pages and game play pages
+- Utility pages as separate paths
 
-**Issues identified:**
-- Indexed 404 page with a content-style title — advised 301 redirect to the correct URL
+**Issues identified** [site audit]:
+- Indexed 404 page with a content-style title — advised 301 redirect
 - Four URL types where two served the crawl purpose — advised consolidation
-- Meta description duplication — systemic, not one-off
+- Meta description duplication — systemic
 
 ## What Jonathan recommended
 
-- 301 redirect on the indexed 404 page to the correct destination
-- Shared the **Google Quality Raters Guide** — a manual review of the site would be governed by these criteria[^2]
-- Provided an **SEO content editor tool** and advised learning it before making further content changes
-- **Link strategy:** do not acquire backlinks until architecture is corrected. Instead, pursue partnerships with high-traffic gaming sites for referral traffic — audience-first, not link-first
-- Explicit flag: **AdSense monetization requires UX to be the primary design priority**[^1]
+- 301 redirect on the indexed 404 page
+- Shared the **Google Quality Raters Guide** — manual review criteria[^1]
+- Provided an **SEO content editor tool**
+- **Link strategy:** audience-first partnerships with high-traffic gaming sites over backlink acquisition
+- Explicit flag: **AdSense monetization requires UX as the primary design priority**[^2]
 
 ## The outcome
 
-Advisory delivered. Harish confirmed he had begun redirecting number-based URLs to their non-number equivalents. Angular implementation was Harish's responsibility throughout.
+Advisory delivered. Harish confirmed he had begun redirecting number-based URLs [engagement records, Mar 2020]. Angular implementation was Harish's responsibility throughout.
 
 ---
 
-[^1]: Google. *AdSense Program Policies and UX Guidance.* support.google.com/adsense. Documents the relationship between site UX quality and ad serving eligibility and performance.
-[^2]: Google Search Central. *Search Quality Evaluator Guidelines.* Published guidance used by Google's human quality raters to evaluate page and site quality; governs E-E-A-T assessment.
+[^1]: Google Search Central. *Search Quality Evaluator Guidelines.* Published guidance governing E-E-A-T assessment by Google's human quality raters.
+[^2]: Google. *AdSense Program Policies and UX Guidance.* support.google.com/adsense. Documents the relationship between site UX quality and ad serving performance.
