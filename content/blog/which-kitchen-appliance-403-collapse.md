@@ -16,17 +16,17 @@ TocOpen: false
 
 ## The situation
 
-**whichkitchenappliance.com** was a well-performing UK kitchen appliance affiliate blog. At its pre-collapse peak (SEMrush, Nov 24–30, 2021), the site held 68 keywords in the top 3, 157 in the top 10, and 365 in the top 100 — average position 44.39, estimated daily traffic 72.66. Google Analytics confirmed 147,325 en-gb users and 168,276 sessions between April 2021 and January 2022.
+**whichkitchenappliance.com** was a well-performing UK kitchen appliance affiliate blog. At its pre-collapse peak (SEMrush Landscape, Nov 24–30, 2021[^1]): 68 keywords in the top 3, 157 in the top 10, and 365 in the top 100 — average position 44.39, estimated daily traffic 72.66. Google Analytics confirmed 147,325 en-gb users and 168,276 sessions between April 2021 and January 2022.[^2]
 
 On November 28, 2021, organic traffic collapsed sharply. Lisa reached out in February 2022 unable to identify the cause.
 
 ## The diagnosis question
 
-The first task was distinguishing between a site-side technical failure and a Google algorithm update. That distinction determines whether the recovery action is within the site owner's control. Raw GA data — not third-party approximations — was used to annotate the traffic graph directly, confirming that the drop point did not align with any known algorithm update and warranted a technical investigation first.
+The first task was distinguishing between a site-side technical failure and a Google algorithm update. That distinction determines whether the recovery action is within the site owner's control. Jonathan annotated the GA traffic graph directly using raw GA data — not third-party approximations — to identify the collapse date.
 
 ## What the crawl found
 
-A Screaming Frog technical crawl of the site identified the cause. Multiple key content pages in the /cookers/ category were returning **403 Forbidden (Client Error) / Non-Indexable**:
+A Screaming Frog technical crawl identified the cause. Multiple key content pages in the /cookers/ category were returning **403 Forbidden (Client Error) / Non-Indexable**:
 
 - /cookers/electric-cookers-induction-vs-ceramic-cooker-tops/
 - /cookers/how-to-buy-a-new-gas-cooker/
@@ -36,20 +36,18 @@ A Screaming Frog technical crawl of the site identified the cause. Multiple key 
 - /cookers/what-are-the-different-range-cooker-sizes/
 - /cookers/does-le-creuset-work-with-induction-hobs/
 
-One additional page (/cookers/do-gas-cookers-need-an-electric-supply/) had been incorrectly canonicalised. These were the structural ranking assets — not low-value or orphaned pages.
-
-A secondary crawl filtered to image files found **523 image URLs in /wp-content/uploads/ also returning 403 Forbidden**. The server was returning HTML error pages instead of image files — Content-Type was text/html — eliminating the site's entire image SEO footprint simultaneously.
+One additional page had been incorrectly canonicalised. A secondary crawl filtered to image files found **523 image URLs in /wp-content/uploads/ also returning 403 Forbidden** — Content-Type was text/html, not image files, eliminating the site's entire image SEO footprint simultaneously.
 
 ## The outcome
 
-| Metric | Pre-collapse (Nov 24–30, 2021) | Post-collapse (Dec 8, 2021) | Change |
+| Metric | Pre-collapse (Nov 24–30, 2021)[^1] | Post-collapse (Dec 8, 2021)[^1] | Change |
 |---|---|---|---|
 | Top-3 keywords | 68 | 5 | −91% (64 lost) |
 | Top-10 keywords | 157 | 56 | −64% (101 lost) |
 | Organic visibility | 9.60% | 2.50% | −7.74pp |
 | Estimated daily traffic | 72.66 | 24.84 | −66% |
 
-347 keywords declined simultaneously in a two-week window against 14 improving.
+347 keywords declined simultaneously in a two-week window against 14 improving.[^1]
 
 ## The recommendation — and what happened
 
@@ -57,10 +55,9 @@ Roll back to the prior URL structure to restore indexed paths, then rebuild the 
 
 ## What this demonstrates
 
-The methodology — raw GA annotation to rule out an algorithm event before diagnosing a technical cause — is the correct sequencing for any unexplained ranking collapse. Third-party rank trackers provide an approximation. GA provides the real number.
+Sequencing the diagnosis correctly — rule out algorithm event first using raw GA data before diagnosing a technical cause — is the correct method for any unexplained ranking collapse. Third-party rank trackers give approximations. GA gives the real number.
 
 ---
 
-*Screaming Frog crawl data, GA export (Apr 2021–Jan 2022), and SEMrush Landscape reports (Nov 24–Dec 8, 2021) on file. Engagement: February 2022.*
-
-
+[^1]: SEMrush. Landscape report for whichkitchenappliance.com, Nov 24–30, 2021 and Dec 8, 2021. Keyword visibility, top-3/top-10/top-100 counts, average position, and estimated daily traffic on file.
+[^2]: Google Analytics. Session and user export for whichkitchenappliance.com, April 2021–January 2022. En-gb geographic segment.

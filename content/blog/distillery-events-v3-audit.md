@@ -16,11 +16,11 @@ TocOpen: false
 
 ## The headline
 
-**Signal Density: 38.3% - Tier: Losing.** Across four commercial categories (corporate, weddings, group dining, event spaces), Distillery Events has zero Map Pack appearances. On the brand's own searches, [thedistillerydistrict.com](https://thedistillerydistrict.com/) outranks them (Map Pack 2 / Top-3 9 / Top-10 15 vs DE's 1 / 7 / 12).
+**Signal Density: 38.3% - Tier: Losing.** Across four commercial categories (corporate, weddings, group dining, event spaces), Distillery Events has zero Map Pack appearances. On the brand's own searches, thedistillerydistrict.com outranks them (Map Pack 2 / Top-3 9 / Top-10 15 vs DE's 1 / 7 / 12).
 
 ## The thesis
 
-The events business is being treated by Google as a feature of the neighborhood, not as a venue brand. Every symptom in the audit flows from this single ontological error. Schema absence, GBP undersizing, brand SERP cannibalization - all downstream effects.
+The events business is being treated by Google as a feature of the neighborhood, not as a venue brand. Every symptom in the audit flows from this single ontological error. Schema absence, GBP undersizing, brand SERP cannibalization — all downstream effects.
 
 ## The schema discovery (post-publication correction)
 
@@ -28,7 +28,7 @@ The original v3 audit said "zero JSON-LD anywhere." That was wrong. A second LLM
 
 Real GBP rating is 3.8 stars on 32 reviews. Yelp is 4.x on 86 reviews. There is no legitimate source for "5/500."
 
-Per [Google's review-snippet guidelines](https://developers.google.com/search/docs/appearance/structured-data/review-snippet), fabricated review schema is a documented manual-action target. The audit's new Priority 0 is: **remove this before doing any other SEO work** - if Google flags it first, every tactical fix downstream is wasted.
+Per Google's review-snippet guidelines, fabricated review schema is a documented manual-action target.[^1] The audit's new Priority 0 is: **remove this before doing any other SEO work** — if Google flags it first, every tactical fix downstream is wasted.
 
 ## The architectural fix
 
@@ -60,3 +60,4 @@ Independent LLM verification is now part of the methodology. One model running t
 
 *Full v3.1 marketing engine audit is a 22-tab interactive HTML deliverable (~170 KB). Available on request.*
 
+[^1]: Google Search Central. *Review Snippets Structured Data.* developers.google.com/search/docs/appearance/structured-data/review-snippet. Documents fabricated or inaccurate review schema as grounds for manual action.

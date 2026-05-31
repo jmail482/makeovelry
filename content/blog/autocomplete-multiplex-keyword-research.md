@@ -26,49 +26,31 @@ The multiplexer routes each incoming query to a backend based on which agent is 
 
 | Agent | Primary Backend | Fallback |
 |---|---|---|
-| Claude / Opus | Serper | ScrapFly |
-| Haiku | ScrapFly | Direct Google |
-| G1 (Zeus File Bridge) | Direct Google | ScrapFly |
-| G3 / Qwen | ScrapFly | Direct Google |
+| Claude / Opus | Serper[^1] | ScrapFly[^2] |
+| Haiku | ScrapFly[^2] | Direct Google[^3] |
+| G1 (Zeus File Bridge) | Direct Google[^3] | ScrapFly[^2] |
+| G3 / Qwen | ScrapFly[^2] | Direct Google[^3] |
 
-The routing logic is policy-driven, not dynamic. Each agent has a defined primary and a defined fallback. The multiplexer checks credit availability on the primary backend before routing; if the primary is exhausted or unavailable, the request goes to the fallback automatically without any intervention required.
+The routing logic is policy-driven, not dynamic. Each agent has a defined primary and a defined fallback. The multiplexer checks credit availability on the primary backend before routing; if the primary is exhausted or unavailable, the request goes to the fallback automatically.
 
 ## Credit tracking
 
-Each backend maintains a separate credit pool. The multiplexer tracks:
-
-- Requests sent per backend per session
-- Estimated credits consumed per request (by backend pricing model)
-- Running total against configured per-backend limits
-- Alert threshold before exhaustion (configurable)
-
-Usage is logged per-request to a structured output file in `/outputs/` with timestamp, agent, backend used, query, and credit cost. Aggregate usage summary writes at session end.
+Each backend maintains a separate credit pool. The multiplexer tracks requests sent per backend per session, estimated credits consumed per request (by backend pricing model), a running total against configured per-backend limits, and an alert threshold before exhaustion. Usage is logged per-request with timestamp, agent, backend used, query, and credit cost.
 
 ## Backend characteristics
 
-**Serper** — paid API, highest reliability, cleanest JSON response, rate limits apply per API key. Primary for Claude/Opus because Claude-originated research tasks are typically the highest-priority and most complex.
+**Serper**[^1] — paid API, highest reliability, cleanest JSON response, rate limits apply per API key. Primary for Claude/Opus because Claude-originated research tasks are typically the highest-priority and most complex.
 
-**ScrapFly** — paid scraping proxy, higher latency than Serper, better suited for volume tasks where per-request cost matters more than speed. Primary for Haiku and G3/Qwen volume workloads.
+**ScrapFly**[^2] — paid scraping proxy, higher latency than Serper, better suited for volume tasks where per-request cost matters more than speed.
 
-**Direct Google Autocomplete** — zero cost, no API key required (endpoint confirmed working), latency variable, subject to rate limiting from Google's side if request volume is high. Primary for G1 (Zeus) which runs against the infrastructure at high frequency and where per-request cost is the binding constraint.
+**Direct Google Autocomplete**[^3] — zero cost, no API key required (endpoint confirmed working), latency variable, subject to rate limiting from Google's side if request volume is high. Primary for G1 (Zeus) which runs against the infrastructure at high frequency.
 
 ## Output structure
 
-Outputs go to `Auto Suggest Scraper V2/engine/` and `outputs/`. Each file contains:
-- Seed query
-- Backend used
-- Timestamp
-- Raw autocomplete suggestions returned
-- Normalized suggestion list
-
-The output format is compatible with downstream keyword clustering and intent classification pipelines.
-
-## What this enables
-
-The multiplexer enables the Zeus multi-agent infrastructure to run parallel keyword research workloads without manual backend selection per agent, without credit exhaustion stopping a full workload mid-run, and without logging gaps that would make usage audits impossible.
-
-For the CDCP dental keyword project: different agents could run different query clusters simultaneously — G1 running neighbourhood + service combinations against Direct Google, Claude running high-priority procedure keywords against Serper — with the multiplexer handling routing, tracking, and failover transparently.
+Outputs go to `Auto Suggest Scraper V2/engine/` and `outputs/`. Each file contains: seed query, backend used, timestamp, raw autocomplete suggestions returned, and normalized suggestion list — compatible with downstream keyword clustering and intent classification pipelines.
 
 ---
 
-*Built May 2026. Output location: C:\Users\jfnfi\Documents\AI\Projects\Auto Suggest Scraper V2\. Backends: Serper API, ScrapFly, Direct Google Autocomplete endpoint. Agent routing: Claude/Opus, Haiku, G1, G3, Qwen.*
+[^1]: Serper. *Google Search API.* serper.dev. JSON API for Google Search and Autocomplete results. Used as primary backend for Claude/Opus agent queries.
+[^2]: ScrapFly. *Web Scraping API.* scrapfly.io. Rotating proxy and scraping infrastructure used as primary backend for Haiku and G3/Qwen agent queries.
+[^3]: Google. *Google Autocomplete (Search Suggestions).* Undocumented public endpoint (google.com/complete/search). Zero cost, no authentication required. Used as primary backend for G1 (Zeus File Bridge) agent queries.

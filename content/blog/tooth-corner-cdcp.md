@@ -12,47 +12,41 @@ TocOpen: false
 
 ## The brief
 
-**Tooth Corner** - Ontario dental DSO with 30+ locations across the province. Active engagement (2026). Objective: own the long tail of CDCP-driven patient acquisition queries across Canada, with primary capture in Ontario.
+**Tooth Corner** — Ontario dental DSO with 30+ locations across the province. Active engagement (2026). Objective: own the long tail of CDCP-driven patient acquisition queries across Canada, with primary capture in Ontario.
 
 ## What CDCP did to dental search
 
-The Canadian Dental Care Plan (CDCP) - federal coverage launched in phases through 2024 - created a new class of search intent overnight. Phrases like:
-
-- "dentists accepting CDCP near me"
-- "CDCP-covered dental services [city]"
-- "is CDCP accepted at [clinic]"
-- "how do I sign up for CDCP dental coverage"
-- "what does CDCP cover in [province]"
-
-A wave of new queries with high commercial intent and almost no entrenched ranking competitors. The window of opportunity is open precisely because the program is new and most dental practices haven't built CDCP-specific landing pages.
+The Canadian Dental Care Plan (CDCP) — federal coverage launched in phases through 2024[^1] — created a new class of search intent overnight. Phrases like "dentists accepting CDCP near me," "CDCP-covered dental services [city]," and "how do I sign up for CDCP dental coverage" emerged as a wave of new queries with high commercial intent and almost no entrenched ranking competitors. The window of opportunity is open precisely because the program is new and most dental practices haven't built CDCP-specific landing pages.
 
 ## The mapping
 
-Autosuggest scrape across the CDCP query universe x 152 Canadian cities produced approximately **2,000+ unique long-tail combinations**. Each maps to one of three intent classes:
+Autosuggest scrape across the CDCP query universe × 152 Canadian cities produced approximately **2,000+ unique long-tail combinations**. Each maps to one of three intent classes:
 
-1. **Eligibility / informational** - "what is CDCP" / "am I eligible" - owned by Government of Canada by default, but capturable as feature on local-business pages
-2. **Provider-finder** - "dentists accepting CDCP [city]" - primary commercial intent
-3. **Service-scoped** - "CDCP-covered cleanings [city]" / "CDCP fillings cost" - high-conversion long tail
+1. **Eligibility / informational** — "what is CDCP" / "am I eligible" — owned by Government of Canada by default,[^1] but capturable as a feature on local-business pages
+2. **Provider-finder** — "dentists accepting CDCP [city]" — primary commercial intent
+3. **Service-scoped** — "CDCP-covered cleanings [city]" / "CDCP fillings cost" — high-conversion long tail
 
 ## The architecture
 
-Standard corporate-multisite-reconciliation methodology (per Sterling Sky / Joy Hawkins):
+Standard corporate-multisite-reconciliation methodology per Sterling Sky and Joy Hawkins:[^2]
 
 - **One corporate site** carrying schema-rich location pages for every clinic
 - **One GBP per physical location** with "Department of" relationships declared upward to the corporate entity
-- **City-scoped neighborhood pages** below each location for hyper-local capture
+- **City-scoped neighbourhood pages** below each location for hyperlocal capture
 - **CDCP-specific landing pages** at the corporate level, syndicated and customized per location
 
 ## The audit framework that scales
 
-A 40-factor Map Pack audit framework, augmented by a healthcare-DSO overlay (separate from the Hospitality H1-H8 used for Distillery Events). Deployable across 130-client cohorts in batch - the audit itself is the engine, not a one-off deliverable.
+A 40-factor Map Pack audit framework — augmented by a healthcare-DSO overlay — deployable across 130-client cohorts in batch. The 40-factor framework is grounded in Whitespark's annual Local Search Ranking Factors research.[^3]
 
-Output is a structured HTML report per location with: factor scorecard, competitor leaderboard, category visibility, recovery roadmap, and dollar-quantified opportunity sizing.
+Output per location: factor scorecard, competitor leaderboard, category visibility score, recovery roadmap, and dollar-quantified opportunity sizing.
 
 ## Where this is going
 
-Active engagement, in flight. The mapping is done. The architectural recommendations are written. The deployment is the next phase - converting the keyword universe and the audit findings into shipped landing pages, schema declarations, GBP optimizations, and review-velocity programs at each of 30+ locations.
+Active engagement, in flight. The mapping is done. The architectural recommendations are written. The deployment phase is next — converting the keyword universe and audit findings into shipped landing pages, schema declarations, GBP optimizations, and review-velocity programs at each of 30+ locations.
 
 ---
 
-*Methodology composed from: Skill 1105 (40-factor Map Pack), Healthcare/DSO overlay (custom), Corporate Multi-Site Audit Reconciliation, 13-Module BI Growth System. Verified against Sterling Sky and Whitespark 2026 factor research.*
+[^1]: Government of Canada. *Canadian Dental Care Plan.* canada.ca/en/services/benefits/dental/dental-care-plan. Official program documentation including eligibility, phase rollout dates, and covered services.
+[^2]: Sterling Sky; Joy Hawkins. *Corporate Multi-Site Local SEO Reconciliation.* sterlingsky.ca. Documented methodology for managing GBP "Department of" relationships and corporate multi-location entity structure.
+[^3]: Whitespark. *Local Search Ranking Factors*, 2025. Annual survey-based research documenting the weighted ranking signals for Google's Local Pack and local organic results.

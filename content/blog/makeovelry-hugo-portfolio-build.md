@@ -5,7 +5,7 @@ draft: false
 tags: ["case study", "Hugo", "GitHub Pages", "portfolio", "web development"]
 categories: ["case studies"]
 description: "A static portfolio site built on Hugo with the PaperMod theme, deployed to GitHub Pages via a GitHub Actions CI/CD pipeline. From zero to 13 live case study posts in one working session — including diagnosis and fix of a structural rendering issue that was hiding the entire posts section."
-summary: "makeovelry.com is a STAR-format portfolio for Jonathan Nishikawa's SEO and digital marketing work, built on Hugo Extended with PaperMod, hosted on GitHub Pages at jmail482.github.io/makeovelry. The project documented every technical obstacle encountered: an empty _index.md hiding the posts section, a directory restructure that put case study posts in the wrong location, a Hugo server not installed locally, and the resolution via GitHub Actions automation."
+summary: "makeovelry.com is a STAR-format portfolio for Jonathan Nishikawa's SEO and digital marketing work, built on Hugo Extended with PaperMod, hosted on GitHub Pages at jmail482.github.io/makeovelry. The project documented every technical obstacle encountered and resolved: an empty _index.md hiding the posts section, a directory restructure that put case study posts in the wrong location, a Hugo server not installed locally, and the resolution via GitHub Actions automation."
 cover:
   image: ""
   alt: ""
@@ -18,19 +18,17 @@ TocOpen: false
 
 makeovelry.com (hosted at jmail482.github.io/makeovelry) is a professional portfolio built to present SEO and digital marketing case studies in a STAR format — Situation, Task, Action, Result — with each post card showing a date, reading time, 2–3 sentence description, and tag pills matching the visual style of the Hugo PaperMod theme.
 
-The site is the delivery vehicle for the Appendix B STAR Portfolio and subsequent case studies. The goal: a portfolio a prospective employer or client can navigate without the analyst needing to be present.
-
 ## Stack
 
-- **Framework:** Hugo Extended (latest)
-- **Theme:** PaperMod
-- **Hosting:** GitHub Pages (jmail482/makeovelry repository)
-- **CI/CD:** GitHub Actions (hugo.yml workflow — triggers on every push to main)
+- **Framework:** Hugo Extended (latest)[^1]
+- **Theme:** PaperMod[^2]
+- **Hosting:** GitHub Pages (jmail482/makeovelry repository)[^3]
+- **CI/CD:** GitHub Actions (hugo.yml workflow — triggers on every push to main)[^4]
 - **Content management:** Markdown files in /content/blog/
 
 ## The structural issue that hid the posts section
 
-The initial site build had posts section invisible despite files existing on disk. Root cause: `/content/posts/_index.md` was empty except for the title. Hugo treats a section without `draft: false` in the front matter as a draft and hides it from the rendered site.
+The initial site build had posts section invisible despite files existing on disk. Root cause: `/content/posts/_index.md` was empty except for the title. Hugo treats a section without `draft: false` in the front matter as a draft and hides it from the rendered site.[^1]
 
 Fix: add `draft: false` to `_index.md`. Posts list rendered immediately.
 
@@ -46,7 +44,7 @@ The `git push` had failed silently (Status Code: 1) because the remote contained
 
 ## The GitHub Actions deployment
 
-Hugo was not installed locally. Rather than block deployment on a local install, a GitHub Actions workflow was written to build and deploy automatically:
+Hugo was not installed locally. A GitHub Actions workflow was written to build and deploy automatically on every push to main:[^4]
 
 ```yaml
 name: Build and Deploy Hugo Site
@@ -71,28 +69,13 @@ jobs:
           publish_dir: ./public
 ```
 
-Every push to main now triggers a full build and deploy automatically. Hugo does not need to be installed locally.
-
-## Post format
-
-Every case study follows the established STAR format derived from the Appendix B source document:
-
-- Frontmatter: title, date, draft: false, tags, categories, description, summary, ShowToc: true
-- H2 sections (situation, diagnosis, action, outcome, lesson)
-- Prose with **bold** emphasis on key metrics
-- Tables where comparison data warrants it
-- Italic footer note citing data sources and engagement date
-
-The format was locked to match the live posts already on the site (verified by reading the existing markdown files on disk before creating new ones).
-
 ## Current state
 
-13 posts live as of May 2026. Posts span:
-- 9 historical client and independent project case studies (Appendix B)
-- 4 recent audit and research case studies (TWAG, Distillery Events, CDCP Dental, Bill 226)
-
-All posts committed to `/content/blog/` and building correctly via GitHub Actions.
+21 posts live as of May 2026 across three groups: historical client case studies (Appendix B), recent audit and research case studies, and systems and infrastructure case studies.
 
 ---
 
-*Repository: github.com/jmail482/makeovelry. Hugo Extended, PaperMod theme. GitHub Actions CI/CD. Local clone: C:\Users\jfnfi\Documents\GitHub\makeovelry.*
+[^1]: Hugo. *Hugo Extended — Static Site Generator.* gohugo.io. Front matter draft flag behaviour and section list rendering documented in Hugo content management documentation.
+[^2]: Adityatelange. *PaperMod — Hugo Theme.* github.com/adityatelange/hugo-PaperMod. Open-source Hugo theme used for portfolio styling.
+[^3]: GitHub Pages. *GitHub Pages Documentation.* docs.github.com/en/pages. Static site hosting from GitHub repositories. Configured for jmail482/makeovelry.
+[^4]: peaceiris. *actions-hugo and actions-gh-pages.* github.com/peaceiris. GitHub Actions used for automated Hugo build and GitHub Pages deployment on push to main.
