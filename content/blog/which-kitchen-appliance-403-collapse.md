@@ -22,7 +22,7 @@ On November 28, 2021, organic traffic collapsed sharply. Lisa reached out in Feb
 
 ## The diagnosis question
 
-The first task was distinguishing between a site-side technical failure and a Google algorithm update. That distinction determines whether the recovery action is within the site owner's control. Jonathan annotated the GA traffic graph directly using raw GA data — not third-party approximations — to identify the collapse date.
+The first task was distinguishing between a site-side technical failure and a Google algorithm update. That distinction determines whether the recovery action is within the site owner's control. The GA traffic graph was annotated directly using raw GA data — not third-party approximations — to identify the collapse date.
 
 ## What the crawl found
 
