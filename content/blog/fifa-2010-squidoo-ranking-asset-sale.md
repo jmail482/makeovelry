@@ -5,7 +5,7 @@ draft: false
 tags: ["case study", "trend intercept", "Squidoo", "affiliate", "asset sale"]
 categories: ["case studies"]
 description: "A pre-event Squidoo page targeting World Cup 2010 search traffic achieved strong organic ranking and significant traffic. TV affiliate conversions failed — tournament search intent doesn't convert to TV purchases. The ranked asset was sold to a buyer who recognized its residual value."
-summary: "The ranking strategy worked. The monetization hypothesis didn't. World Cup search traffic arrived but didn't convert to large-screen television affiliate purchases. Rather than discarding the asset, Jonathan identified its sale value — a well-ranked page with documented traffic — and sold it. Lesson: ranking success and conversion success are separate outcomes."
+summary: "The ranking strategy worked. The monetization hypothesis didn't. World Cup search traffic arrived but didn't convert to large-screen television affiliate purchases. Rather than discarding the asset, its sale value was identified — a well-ranked page with documented traffic — and it was sold. Lesson: ranking success and conversion success are separate outcomes."
 cover:
   image: ""
   alt: ""
@@ -16,11 +16,11 @@ TocOpen: false
 
 ## The hypothesis
 
-The 2010 FIFA World Cup was anticipated to generate a significant spike in search activity and a secondary spike in large-screen television sales as consumers sought to watch the tournament at home. Jonathan identified an opportunity to publish targeted content ahead of the peak demand window, establish a ranking position before competition intensified, and monetize that position through TV affiliate commissions.
+The 2010 FIFA World Cup was anticipated to generate a significant spike in search activity and a secondary spike in large-screen television sales as consumers sought to watch the tournament at home. An opportunity was identified to publish targeted content ahead of the peak demand window, establish a ranking position before competition intensified, and monetize that position through TV affiliate commissions.
 
 ## The execution
 
-Jonathan published a targeted Squidoo page, leveraging the platform's domain authority to rank new content more rapidly than a standalone site would allow. The page was published before the tournament to establish ranking before search volume peaked, with content structured to address World Cup viewership intent and direct readers toward large-screen television affiliate links.
+A targeted Squidoo page was published, leveraging the platform's domain authority to rank new content more rapidly than a standalone site would allow. The page was published before the tournament to establish ranking before search volume peaked, with content structured to address World Cup viewership intent and direct readers toward large-screen television affiliate links.
 
 ## What happened
 
@@ -32,7 +32,7 @@ The disconnect: **informational tournament intent is not transactional purchasin
 
 ## The recovery
 
-Rather than discarding the asset, Jonathan identified its residual value: the page had demonstrated page rank and documented traffic volume. A buyer interested in acquiring an established, ranked Squidoo property recognized that value and purchased it.
+Rather than discarding the asset, its residual value was identified: the page had demonstrated page rank and documented traffic volume. A buyer interested in acquiring an established, ranked Squidoo property recognized that value and purchased it.
 
 ## What this demonstrates
 
