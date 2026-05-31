@@ -5,7 +5,7 @@ draft: false
 tags: ["case study", "local SEO", "adult industry", "GBP", "citation building"]
 categories: ["case studies"]
 description: "Five Australian locations. Citation directories that decline adult content. GMB verification requiring exterior signage photos. Competitors stuffing search keywords into their GMB business names in violation of Google's guidelines — and Google not acting on reports."
-summary: "Daniel operated Cassie's across five Australian locations. The adult industry classification removed most standard local SEO tools from the available options. Jonathan delivered a prioritized plan that worked within those constraints."
+summary: "Daniel operated Cassie's across five Australian locations. The adult industry classification removed most standard local SEO tools from the available options. The engagement delivered a prioritized plan that worked within those constraints."
 cover:
   image: ""
   alt: ""
@@ -33,7 +33,7 @@ The adult industry classification created documented limitations [engagement rec
 
 The GMB profile was not optimised — the description was too short and lacked keyword coverage [GBP audit, Sep 2022]. Facebook and LinkedIn business pages were both absent [social audit, Sep 2022]. BrightLocal citation management was already underway for Sydney [BrightLocal account, Sep 2022][^3].
 
-## What Jonathan recommended
+## What the audit recommended
 
 - **GMB description:** Expand and optimise within category limitations
 - **Facebook and LinkedIn business pages:** Establish both

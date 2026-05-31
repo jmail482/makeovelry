@@ -5,7 +5,7 @@ draft: false
 tags: ["case study", "trend intercept", "Squidoo", "affiliate", "asset sale"]
 categories: ["case studies"]
 description: "A pre-event Squidoo page targeting World Cup 2010 search traffic achieved strong organic ranking and significant traffic. TV affiliate conversions failed — tournament search intent doesn't convert to TV purchases. The ranked asset was sold to a buyer who recognized its residual value."
-summary: "The ranking strategy worked. The monetization hypothesis didn't. World Cup search traffic arrived but didn't convert to large-screen television affiliate purchases. Rather than discarding the asset, Jonathan sold it. Lesson: ranking success and conversion success are separate outcomes."
+summary: "The ranking strategy worked. The monetization hypothesis didn't. World Cup search traffic arrived but didn't convert to large-screen television affiliate purchases. Rather than discarding the asset, it was sold. Lesson: ranking success and conversion success are separate outcomes."
 cover:
   image: ""
   alt: ""
@@ -16,11 +16,11 @@ TocOpen: false
 
 ## The hypothesis
 
-The 2010 FIFA World Cup was anticipated to generate a significant spike in search activity and a secondary spike in large-screen television sales. Jonathan identified an opportunity to publish targeted content ahead of the peak demand window, establish a ranking position before competition intensified, and monetize through TV affiliate commissions.
+The 2010 FIFA World Cup was anticipated to generate a significant spike in search activity and a secondary spike in large-screen television sales. The opportunity: publish targeted content ahead of the peak demand window, establish a ranking position before competition intensified, and monetize through TV affiliate commissions.
 
 ## The execution
 
-Jonathan published a targeted Squidoo page, leveraging the platform's domain authority to rank new content rapidly. The page was published before the tournament to establish ranking before search volume peaked, with content structured to address World Cup viewership intent and direct readers toward large-screen television affiliate links [engagement records, 2010][^1].
+A targeted Squidoo page was published, leveraging the platform's domain authority to rank new content rapidly. The page was published before the tournament to establish ranking before search volume peaked, with content structured to address World Cup viewership intent and direct readers toward large-screen television affiliate links [engagement records, 2010][^1].
 
 ## What happened
 
@@ -40,4 +40,4 @@ A well-ranked content asset retains sale value independent of whether its origin
 
 ---
 
-[^1]: Jonathan Nishikawa production records. Squidoo page performance and asset sale documented. Squidoo platform decommissioned 2014; archived content transferred to HubPages.
+[^1]: Production records. Squidoo page performance and asset sale documented. Squidoo platform decommissioned 2014; archived content transferred to HubPages.

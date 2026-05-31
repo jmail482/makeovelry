@@ -4,7 +4,7 @@ date: 2026-05-28T11:00:00-05:00
 draft: false
 tags: ["case study", "affiliate", "early adopter", "niche SEO", "display advertising"]
 categories: ["case studies"]
-description: "In 2008, the electronic cigarette review space was nearly empty. Jonathan built a structured affiliate review site on Weebly, covered ten brands, and generated commission income for approximately 24 months before the niche saturated."
+description: "In 2008, the electronic cigarette review space was nearly empty. A structured affiliate review site built on Weebly covered ten brands and generated commission income for approximately 24 months before the niche saturated."
 summary: "electroniccigarettebrands.weebly.com covered ten e-cigarette brands across a multi-section affiliate property and generated affiliate commissions consistently for approximately 24 months. Entry timing — before content saturation — was the primary driver."
 cover:
   image: ""
@@ -20,9 +20,9 @@ In 2008, the electronic cigarette category was in its early commercial phase. Co
 
 ## The build
 
-Jonathan built the site on Weebly and structured it as a multi-section affiliate review property [Wayback Machine archive][^1]. Navigation covered: HOME, E-CIG BLOG, ABOUT ELECTRONIC CIGARETTES, BUYING ELECTRONIC CIGARETTE BRANDS, ELECTRONIC CIGARETTE COUPONS, and a dedicated Greensmoke page.
+The site was built on Weebly and structured as a multi-section affiliate review property [Wayback Machine archive][^1]. Navigation covered: HOME, E-CIG BLOG, ABOUT ELECTRONIC CIGARETTES, BUYING ELECTRONIC CIGARETTE BRANDS, ELECTRONIC CIGARETTE COUPONS, and a dedicated Greensmoke page.
 
-Ten brands were reviewed by Jonathan: Greensmoke (featured and recommended), Vaporzone, Whitecloud, Premium E Cigarette, No Safe Cig, Volcano, eSmoke, VyCig, South Beach Smoke, and Blurip [site archive, 2008–2011][^1]. Jonathan executed all on-site SEO, submitted to online directories, and integrated third-party display advertising alongside affiliate links.
+Ten brands were reviewed: Greensmoke (featured and recommended), Vaporzone, Whitecloud, Premium E Cigarette, No Safe Cig, Volcano, eSmoke, VyCig, South Beach Smoke, and Blurip [site archive, 2008–2011][^1]. All on-site SEO was executed, submitted to online directories, and integrated third-party display advertising alongside affiliate links.
 
 ## The result
 

@@ -55,6 +55,6 @@ No conversion-to-interview rate is documented. No offer data exists. The system'
 
 ---
 
-[^1]: HOW_SCORING_WORKS.md. 688 lines. Path: C:\Users\jfnfi\Documents\AI\Projects\job-scraper\how this works\. Documents the full scoring methodology, threshold rules, and exclusion logic.
-[^2]: Resume data sheet.txt and Resume.txt. Skills profile source files used for match scoring. Located at C:\Users\jfnfi\Documents\AI\Projects\Resume_SAFE_BACKUP\.
+[^1]: HOW_SCORING_WORKS.md. 688 lines. Documents the full scoring methodology, threshold rules, and exclusion logic.
+[^2]: Resume data sheet.txt and Resume.txt. Skills profile source files used for match scoring.
 [^3]: Indeed.ca; LinkedIn.ca. Job postings verified at time of lead identification, 2026. Lead details on file in job-scraper project outputs.

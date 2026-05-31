@@ -4,8 +4,8 @@ date: 2026-05-28T12:30:00-05:00
 draft: false
 tags: ["case study", "technical SEO", "Angular", "AdSense", "crawl architecture"]
 categories: ["case studies"]
-description: "An AdSense-monetized games site had grown from a clean two-URL-per-game structure to four URL types, an indexed 404 page, and site-wide meta description duplication. Jonathan mapped the correct architecture, delivered a 301 redirect strategy, and flagged the UX imperative for ad-monetized properties."
-summary: "SpideyGames.com ran on Angular with AdSense monetization. Jonathan identified architectural drift, an indexed 404, and duplication issues, then delivered a prioritized remediation plan with a link strategy grounded in referral traffic."
+description: "An AdSense-monetized games site had grown from a clean two-URL-per-game structure to four URL types, an indexed 404 page, and site-wide meta description duplication. The audit mapped the correct architecture, delivered a 301 redirect strategy, and flagged the UX imperative for ad-monetized properties."
+summary: "SpideyGames.com ran on Angular with AdSense monetization. The audit identified architectural drift, an indexed 404, and duplication issues, then delivered a prioritized remediation plan with a link strategy grounded in referral traffic."
 cover:
   image: ""
   alt: ""
@@ -20,7 +20,7 @@ SpideyGames.com was a free online games website monetized through Google AdSense
 
 **Advisory date: March 27–29, 2020. Platform: Angular. Implementation responsibility: Harish.**
 
-## What Jonathan mapped
+## What the audit mapped
 
 **Correct architecture** [site audit, Mar 2022]:
 - Home page → game-type category pages → game info pages and game play pages
@@ -31,7 +31,7 @@ SpideyGames.com was a free online games website monetized through Google AdSense
 - Four URL types where two served the crawl purpose — advised consolidation
 - Meta description duplication — systemic
 
-## What Jonathan recommended
+## What the audit recommended
 
 - 301 redirect on the indexed 404 page
 - Shared the **Google Quality Raters Guide** — manual review criteria[^1]

@@ -18,9 +18,9 @@ TocOpen: false
 
 **Project 1 — Panic Away AdWords campaign.** Panic Away was an established digital product in the anxiety and panic attack self-help category, sold through affiliate networks with commission rates sufficient to support paid traffic acquisition [ClickBank affiliate program, c. 2010][^1].
 
-**Project 2 — Meditation software YouTube affiliate.** Separately, Jonathan identified YouTube as an emerging channel for affiliate content in the adjacent wellness space.
+**Project 2 — Meditation software YouTube affiliate.** Separately, YouTube was identified as an emerging channel for affiliate content in the adjacent wellness space.
 
-## What Jonathan evaluated before spending
+## What was evaluated before spending
 
 For the AdWords campaign: the Panic Away affiliate offer, commission structure, and estimated CPC for anxiety and panic attack search queries in US metro markets [AdWords planner data, c. 2010]. The question was whether the margin between commission and ad spend could be made positive through targeted campaign execution. It could.
 
@@ -37,4 +37,4 @@ Evaluating a conversion offer's margin potential before committing ad budget is 
 ---
 
 [^1]: Panic Away. Affiliate program via ClickBank. panicaway.com. Product by Barry McDonagh; affiliate commissions paid through ClickBank network at time of campaign.
-[^2]: Jonathan Nishikawa production records. AdWords campaign performance exports and YouTube Analytics data on file.
+[^2]: Production records. AdWords campaign performance exports and YouTube Analytics data on file.

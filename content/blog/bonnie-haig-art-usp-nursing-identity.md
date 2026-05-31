@@ -4,8 +4,8 @@ date: 2026-05-28T13:30:00-05:00
 draft: false
 tags: ["case study", "digital marketing strategy", "USP", "artist marketing", "email list"]
 categories: ["case studies"]
-description: "Bonnie Haig wanted to grow her email list. Her site, Instagram, and social presence communicated no commercial intent — only one 'special discounts' reference, no selling visible on Instagram, no Facebook business page. Jonathan reframed the goal and recommended building her identity around her nursing background."
-summary: "Before advising on email list growth, Jonathan identified the underlying problem: no one visiting Bonnie's site could determine whether she sold anything. His central recommendation was a USP built around her nursing professional background."
+description: "Bonnie Haig wanted to grow her email list. Her site, Instagram, and social presence communicated no commercial intent — only one 'special discounts' reference, no selling visible on Instagram, no Facebook business page. The engagement reframed the goal and recommended building her identity around her nursing background."
+summary: "Before advising on email list growth, the audit identified the underlying problem: no one visiting Bonnie's site could determine whether she sold anything. The central recommendation was a USP built around her nursing professional background."
 cover:
   image: ""
   alt: ""
@@ -20,7 +20,7 @@ Bonnie Haig was a painter with **18 paintings** showcased on her website [site a
 
 ## The actual problem
 
-Jonathan conducted a full audit of the website, Instagram, and social presence [site audit, bonniehaig.com]. What he found:
+The engagement conducted a full audit of the website, Instagram, and social presence [site audit, bonniehaig.com]. What the audit found:
 
 - Only **one reference to "special discounts"** anywhere on the site [site audit]
 - **No mention of selling** on Instagram [Instagram audit]
@@ -29,14 +29,14 @@ Jonathan conducted a full audit of the website, Instagram, and social presence [
 
 ## The reframe
 
-Before answering the email list question, Jonathan reframed the task. The question was not *how to grow subscribers* — it was *what the underlying business goal was*.
+Before answering the email list question, the engagement reframed the task. The question was not *how to grow subscribers* — it was *what the underlying business goal was*.
 
 - **Pure audience engagement** → one strategy
 - **Painting sales** → a fundamentally different strategy
 
 ## The USP recommendation
 
-Jonathan's central recommendation: build Bonnie's identity around her **nursing professional background**.
+The central recommendation: build Bonnie's identity around her **nursing professional background**.
 
 **Benchmark:** Leonid Afremov — cited as a standard for emotionally compelling visual art with a recognizable, specific identity [leonidafremov.com][^2].
 
