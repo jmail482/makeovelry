@@ -22,7 +22,7 @@ On November 28, 2021, organic traffic collapsed sharply. Lisa reached out in Feb
 
 ## The diagnosis question
 
-The first task was distinguishing between a site-side technical failure and a Google algorithm update. That distinction determines whether the recovery action is within the site owner's control. Jonathan used raw GA data — not third-party approximations — to annotate the traffic graph directly: *"This is the point where users drastically dropped. I'm not convinced it's from an update yet."*
+The first task was distinguishing between a site-side technical failure and a Google algorithm update. That distinction determines whether the recovery action is within the site owner's control. Jonathan used raw GA data — not third-party approximations — to annotate the traffic graph directly, noting that the drop point did not align with any known algorithm update and warranted a technical investigation first.
 
 ## What the crawl found
 
@@ -57,8 +57,9 @@ Roll back to the prior URL structure to restore indexed paths, then rebuild the 
 
 ## What this demonstrates
 
-The methodology — raw GA annotation to rule out an algorithm event before diagnosing a technical cause — is the correct sequencing for any unexplained ranking collapse. Third-party rank trackers give you an approximation. GA gives you the real number. Start with GA.
+The methodology — raw GA annotation to rule out an algorithm event before diagnosing a technical cause — is the correct sequencing for any unexplained ranking collapse. Third-party rank trackers provide an approximation. GA provides the real number.
 
 ---
 
 *Screaming Frog crawl data, GA export (Apr 2021–Jan 2022), and SEMrush Landscape reports (Nov 24–Dec 8, 2021) on file. Engagement: February 2022.*
+
