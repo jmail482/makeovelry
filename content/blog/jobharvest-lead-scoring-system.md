@@ -37,11 +37,7 @@ JobHarvest applies a documented scoring methodology (HOW_SCORING_WORKS.md, 688 l
 - Skills overlap against documented profile (Local SEO, Technical SEO, GBP, WordPress, Google Ads, Meta Ads[^2])
 - Seniority signal from JD language and required years of experience
 
-<<<<<<< HEAD
-**Resume sources used for matching:** Resume.txt, resume data sheet.txt, old stuff i could beef my resume up with.txt. Not Jonathan_Nishikawa_Resume.docx — the one-page format obscures experience depth the scoring system needs to assess.
-=======
 **Resume sources used for matching:** Resume.txt, resume data sheet.txt, old stuff i could beef my resume up with.txt. Not the standard one-page resume file — the one-page format obscures experience depth that the scoring system needs to assess.
->>>>>>> 73fc2f6b1e9f7f3f4d765e232f9aae8c17d439ab
 
 ## Top leads identified
 
@@ -60,5 +56,5 @@ No conversion-to-interview rate is documented. No offer data exists. The system'
 ---
 
 [^1]: HOW_SCORING_WORKS.md. 688 lines. Path: C:\Users\jfnfi\Documents\AI\Projects\job-scraper\how this works\. Documents the full scoring methodology, threshold rules, and exclusion logic.
-[^2]: Jonathan Nishikawa. Resume data sheet.txt and Resume.txt. Skills profile source files used for match scoring. Located at C:\Users\jfnfi\Documents\AI\Projects\Resume_SAFE_BACKUP\.
+[^2]: Resume data sheet.txt and Resume.txt. Skills profile source files used for match scoring. Located at C:\Users\jfnfi\Documents\AI\Projects\Resume_SAFE_BACKUP\.
 [^3]: Indeed.ca; LinkedIn.ca. Job postings verified at time of lead identification, 2026. Lead details on file in job-scraper project outputs.

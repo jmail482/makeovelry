@@ -164,3 +164,36 @@
 .nav a:hover {
   color: #2563EB !important;
 }
+/* === NUMBERED PAGINATION === */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 24px 0 12px;
+}
+
+.page-link {
+  display: inline-block;
+  padding: 6px 14px;
+  font-size: 14px;
+  color: var(--primary);
+  text-decoration: none;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  transition: background 0.15s, color 0.15s;
+}
+
+.page-link:hover {
+  background: var(--primary);
+  color: var(--theme);
+  border-color: var(--primary);
+}
+
+.page-link.current {
+  background: var(--primary);
+  color: var(--theme);
+  border-color: var(--primary);
+  font-weight: 600;
+  cursor: default;
+}

@@ -18,3 +18,13 @@ html[data-theme="light"] {
     --secondary: rgb(60, 60, 60) !important;
 }
 </style>
+{{- /* Canonical rel=prev/next for paginated sections (SEO best practice) */ -}}
+{{- if .IsSection }}
+{{- $paginator := .Paginate (union .RegularPages .Sections) }}
+{{- if $paginator.HasPrev }}
+<link rel="prev" href="{{ $paginator.Prev.URL | absURL }}" />
+{{- end }}
+{{- if $paginator.HasNext }}
+<link rel="next" href="{{ $paginator.Next.URL | absURL }}" />
+{{- end }}
+{{- end }}
