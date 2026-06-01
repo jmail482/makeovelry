@@ -10,7 +10,15 @@
                             class="img-thumbnail mx-auto{{ if .Site.Params.hero.roundImage }} rounded-circle{{ end }}"
                             alt="{{ .Site.Params.title }} profile image"
                         >
-                        {{- /* Social icons removed per Jonathan's request */ -}}
+                        {{ if .Site.Params.hero.socialLinks }}
+                        <div class="hero-photo-social">
+                            {{ range .Site.Params.hero.socialLinks.fontAwesomeIcons }}
+                            <a href="{{ .url }}"{{ if not (hasPrefix .url "#") }} target="_blank" rel="noopener"{{ end }} class="btn social-icon">
+                                <i class="{{ .icon }}"></i>
+                            </a>
+                            {{ end }}
+                        </div>
+                        {{ end }}
                     </div>
                 </div>
             </div>
