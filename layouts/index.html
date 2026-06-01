@@ -43,7 +43,13 @@
 {{ end }}
 
 {{ define "main" }}
-{{/* MULTI-PAGE: Home shows the hero landing only. About / Featured Work / Deep Case Study /
-     Experience / Contact are now separate pages reachable from the nav (traditional website nav). */}}
+{{/* HOME = full consensus single-page scroll. Separate nav pages still exist for direct linking. */}}
 {{- partial "sections/hero/index.html" . -}}
+{{- partial "sections/about.html" . -}}
+{{- partial "sections/projects.html" . -}}
+{{- partial "sections/deep-case-study.html" . -}}
+{{- partial "sections/experience.html" . -}}
+{{- partial "sections/testimonials.html" . -}}
+{{- partial "sections/achievements.html" . -}}
+{{- partial "sections/contact.html" . -}}
 {{ end }}
