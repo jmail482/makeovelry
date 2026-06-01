@@ -157,4 +157,11 @@ a.primary-font.card-title { color: #000000 !important; }
 .btn-outline:hover{background:var(--primary-color,#000000);color:#fff}
 /* Standalone section pages: give breathing room below the sticky navbar */
 .section-page{padding-top:2rem;}
+/* Case Studies / blog list cards: force high-contrast readable text (theme used muted gray + opacity) */
+body:not(.dark) .card, body:not(.dark) .card *,
+body:not(.dark) .blog-card, body:not(.dark) .blog-card *,
+body:not(.dark) #blog .card-text, body:not(.dark) #blog .card-title,
+body:not(.dark) .text-muted{color:#000000 !important;opacity:1 !important;}
+body:not(.dark) .card .card-text, body:not(.dark) .blog-card .card-text{color:#1a1a1a !important;opacity:1 !important;line-height:1.6;}
+body:not(.dark) .card .card-title, body:not(.dark) .blog-card .card-title{color:#000000 !important;font-weight:700 !important;}
 </style>
