@@ -164,4 +164,50 @@ body:not(.dark) #blog .card-text, body:not(.dark) #blog .card-title,
 body:not(.dark) .text-muted{color:#000000 !important;opacity:1 !important;}
 body:not(.dark) .card .card-text, body:not(.dark) .blog-card .card-text{color:#1a1a1a !important;opacity:1 !important;line-height:1.6;}
 body:not(.dark) .card .card-title, body:not(.dark) .blog-card .card-title{color:#000000 !important;font-weight:700 !important;}
+
+/* ============================================================
+   PROFESSIONAL HERO CTA + SOCIAL ICONS (final, highest priority)
+   ============================================================ */
+#hero .hero-buttons{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin-top:10px;}
+/* Primary CTA — solid black */
+#hero .hero-buttons a.btn{
+  display:inline-flex !important;align-items:center;gap:8px;
+  background:#000000 !important;color:#ffffff !important;border:2px solid #000000 !important;
+  font-weight:600 !important;font-size:0.95rem;letter-spacing:0.02em;
+  padding:13px 30px !important;border-radius:6px !important;line-height:1;
+  text-decoration:none;transition:all 0.18s ease;box-shadow:none;
+}
+#hero .hero-buttons a.btn:hover{
+  background:#1a1a1a !important;color:#ffffff !important;border-color:#1a1a1a !important;
+  transform:translateY(-2px);box-shadow:0 6px 18px rgba(0,0,0,0.22);
+}
+/* Secondary CTA — clean outline */
+#hero .hero-buttons a.btn-outline{
+  display:inline-flex !important;align-items:center;gap:8px;
+  background:transparent !important;color:#000000 !important;border:2px solid #000000 !important;
+  font-weight:600 !important;font-size:0.95rem;letter-spacing:0.02em;
+  padding:13px 30px !important;border-radius:6px !important;line-height:1;
+  text-decoration:none;transition:all 0.18s ease;box-shadow:none;
+}
+#hero .hero-buttons a.btn-outline:hover{
+  background:#000000 !important;color:#ffffff !important;
+  transform:translateY(-2px);box-shadow:0 6px 18px rgba(0,0,0,0.22);
+}
+/* Social icons — uniform circular buttons under the photo */
+#hero .hero-photo-social{margin-top:1.25rem !important;}
+#hero .hero-photo-social span{display:inline-flex;gap:12px;}
+#hero .hero-photo-social .px-1{padding:0 !important;}
+#hero .hero-photo-social a.btn.social-icon{
+  display:inline-flex !important;align-items:center;justify-content:center;
+  width:44px;height:44px;padding:0 !important;
+  border:1.5px solid #000000 !important;border-radius:50% !important;
+  background:transparent !important;color:#000000 !important;font-size:1.05rem;
+  transition:all 0.18s ease;box-shadow:none;
+}
+#hero .hero-photo-social a.btn.social-icon i{color:#000000 !important;transition:color 0.18s ease;}
+#hero .hero-photo-social a.btn.social-icon:hover{
+  background:#000000 !important;border-color:#000000 !important;
+  transform:translateY(-2px);box-shadow:0 5px 14px rgba(0,0,0,0.2);
+}
+#hero .hero-photo-social a.btn.social-icon:hover i{color:#ffffff !important;}
 </style>
