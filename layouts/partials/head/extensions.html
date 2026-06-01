@@ -1,5 +1,25 @@
 <style>
-/* Pure white background */
+/* ================================================================
+   MASTER COLOR/OPACITY OVERRIDE — makeoverlyonline
+   
+   Problem: The hugo-profile theme uses CSS variables (--text-color: #343a40,
+   --text-secondary-color: #6c757d) referenced in dozens of !important rules
+   with class/ID specificity. A universal `*` selector can't beat them.
+   
+   Fix: Override the CSS variables at :root so every var() resolves to black.
+   Then add targeted opacity overrides matching the theme's selector specificity.
+   ================================================================ */
+
+/* 1. Override CSS variables at the source — EVERY var(--text-color) now = #000 */
+:root {
+    --text-color: #000000 !important;
+    --text-secondary-color: #000000 !important;
+    --background-color: #ffffff !important;
+    --secondary-background-color: #ffffff !important;
+}
+
+/* 2. White background everywhere */
+html { background-color: #ffffff !important; }
 body, body.light { background-color: #ffffff !important; }
 section { background-color: #ffffff !important; }
 .bg-transparent { background-color: transparent !important; }
@@ -7,13 +27,57 @@ section { background-color: #ffffff !important; }
 .deep-case-study { background: #f8f9fa !important; }
 .testimonial-card { background: #f8f9fa !important; }
 
-/* NUCLEAR: every single element on the page = black, opacity 1 */
+/* 3. Catch-all: force black + full opacity on all elements */
 *, *::before, *::after {
     color: #000000 !important;
     opacity: 1 !important;
 }
 
-/* BLUE ACCENTS — higher specificity beats the * selector */
+/* 4. TARGETED opacity overrides — match or exceed theme's specificity */
+/* Theme uses #hero .subtitle (0-1-1), #hero h2 (0-1-1), #hero p (0-1-1) etc. */
+#hero .subtitle { color: #000000 !important; opacity: 1 !important; }
+#hero h2 { color: #000000 !important; opacity: 1 !important; }
+#hero p { color: #000000 !important; opacity: 1 !important; }
+#hero .hero-content { color: #000000 !important; opacity: 1 !important; }
+#hero .hero-bottom-svg { opacity: 1 !important; }
+#hero a.btn { color: #000000 !important; opacity: 1 !important; }
+#hero a.btn:hover { opacity: 1 !important; }
+#hero a.btn.social-icon:hover { opacity: 1 !important; }
+#hero .hero-content > a::after { opacity: 1 !important; }
+#hero .stat-label { color: #000000 !important; opacity: 1 !important; }
+
+/* About section */
+#about .content { color: #000000 !important; opacity: 1 !important; }
+#about h3 { color: #000000 !important; opacity: 1 !important; }
+
+/* Experience section */
+#experience .nav-link { color: #000000 !important; opacity: 1 !important; }
+#experience .tab-pane { color: #000000 !important; opacity: 1 !important; }
+
+/* Light mode class override — theme uses .light > * (0-1-0) */
+.light > * { color: #000000 !important; opacity: 1 !important; }
+body.light > * { color: #000000 !important; opacity: 1 !important; }
+
+/* Text secondary override */
+.text-secondary { color: #000000 !important; }
+
+/* Footer */
+#footer { color: #000000 !important; opacity: 1 !important; }
+#footer * { color: #000000 !important; opacity: 1 !important; }
+
+/* Achievement cards */
+.achievement .card { opacity: 1 !important; }
+.achievement .card * { opacity: 1 !important; }
+
+/* Project cards */
+.project .card { opacity: 1 !important; }
+.project .card * { opacity: 1 !important; }
+
+/* Blog/list items */
+.post-entry { opacity: 1 !important; }
+.post-entry * { opacity: 1 !important; }
+
+/* 5. BLUE ACCENTS — these need higher specificity than the catch-all */
 #hero h1 { color: #007bff !important; }
 .hero-stat .stat-number { color: #007bff !important; }
 .metric .metric-value { color: #007bff !important; }
@@ -22,6 +86,9 @@ section { background-color: #ffffff !important; }
 /* Buttons */
 a.btn, a.btn-outline, .btn-outline { color: #007bff !important; border-color: #007bff !important; }
 a.btn:hover, a.btn-outline:hover, .btn-outline:hover { color: #ffffff !important; background-color: #007bff !important; }
+#hero a.btn { color: #007bff !important; }
+#hero a.btn:hover { color: #007bff !important; }
+#hero a.btn.social-icon { color: #007bff !important; }
 
 /* Social icons */
 .social-icons a, .social-icons a i, .social-icons a svg { color: #007bff !important; }
@@ -36,10 +103,24 @@ a.btn:hover, a.btn-outline:hover, .btn-outline:hover { color: #ffffff !important
 /* Read Full Case Study links */
 a[href*="case-stud"] { color: #007bff !important; }
 
-/* Dark mode support */
+/* Active nav items */
+.nav-link.active { color: #007bff !important; }
+#experience .nav-link.active { color: #007bff !important; }
+
+/* 6. Dark mode support */
+.dark { 
+    --text-color: #e0e0e0 !important;
+    --text-secondary-color: #b0b0b8 !important;
+    --background-color: #1a1a2e !important;
+}
 .dark body { background-color: #1a1a2e !important; }
 .dark section { background-color: #1a1a2e !important; }
 .dark *, .dark *::before, .dark *::after { color: #e0e0e0 !important; }
+.dark #hero .subtitle { color: #e0e0e0 !important; opacity: 1 !important; }
+.dark #hero h2 { color: #e0e0e0 !important; opacity: 1 !important; }
+.dark #hero p { color: #e0e0e0 !important; opacity: 1 !important; }
+.dark #about .content { color: #e0e0e0 !important; opacity: 1 !important; }
+.dark .light > * { color: #e0e0e0 !important; }
 </style>
 <script>
 function scrollToSection(el) {
@@ -55,7 +136,6 @@ function scrollToSection(el) {
 
 (function() {
     document.addEventListener('DOMContentLoaded', function() {
-        // Section navigation
         var base = '/makeoverlyonline/';
         var path = window.location.pathname;
         if (path.indexOf(base) === 0) {
