@@ -43,18 +43,11 @@
 
                 <div class="hero-buttons">
                     {{ if .Site.Params.hero.button.enable }}
-                    <a href="{{ .Site.Params.hero.button.url }}" class="btn" {{ cond .Site.Params.hero.button.download "download" "" }}
-                      {{ if .Site.Params.hero.button.newPage | default true }}
-                      target="_blank"
-                      {{ end }}>
-                        {{ $hero.button.name | default .Site.Params.hero.button.name }}
-                    </a>
+                    <a href="{{ .Site.Params.hero.button.url | relURL }}" class="btn"{{ if .Site.Params.hero.button.download }} download{{ end }}>{{ $hero.button.name | default .Site.Params.hero.button.name }}</a>
                     {{ end }}
                     {{ if .Site.Params.hero.resumeButton }}
                     {{ if .Site.Params.hero.resumeButton.enable }}
-                    <a href="{{ .Site.Params.hero.resumeButton.url }}" class="btn-outline" download>
-                        <i class="fas fa-file-download"></i> {{ .Site.Params.hero.resumeButton.name | default "Download Resume" }}
-                    </a>
+                    <a href="{{ .Site.Params.hero.resumeButton.url | relURL }}" class="btn-outline" download><i class="fas fa-file-download"></i> {{ .Site.Params.hero.resumeButton.name | default "Download Resume" }}</a>
                     {{ end }}
                     {{ end }}
                 </div>
