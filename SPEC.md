@@ -109,8 +109,8 @@ export PLAYWRIGHT_BROWSERS_PATH=/work/tools/ms-playwright
 ---
 
 ## CURRENT STATE (as of 2026-06-01)
-- main: `e054a3a`
-- gh-pages: `f95a6bd` (deployed)
+- main: `e0d4489`
+- gh-pages: `f0709e8` (deployed)
 - Home: hero only ✅
 - Photo left/content right ✅
 - Black text ✅
