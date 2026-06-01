@@ -43,8 +43,6 @@
 {{ end }}
 
 {{ define "main" }}
-{{/* HOME = Hero only + Testimonials + By The Numbers. About/Projects/DeepDive/Experience/Contact are on their own nav pages. */}}
+{{/* HOME = Hero only. All other sections are on their own separate nav pages. */}}
 {{- partial "sections/hero/index.html" . -}}
-{{- partial "sections/testimonials.html" . -}}
-{{- partial "sections/achievements.html" . -}}
 {{ end }}
