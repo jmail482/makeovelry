@@ -43,13 +43,8 @@
 {{ end }}
 
 {{ define "main" }}
-{{/* HOME = full consensus single-page scroll. Separate nav pages still exist for direct linking. */}}
+{{/* HOME = Hero only + Testimonials + By The Numbers. About/Projects/DeepDive/Experience/Contact are on their own nav pages. */}}
 {{- partial "sections/hero/index.html" . -}}
-{{- partial "sections/about.html" . -}}
-{{- partial "sections/projects.html" . -}}
-{{- partial "sections/deep-case-study.html" . -}}
-{{- partial "sections/experience.html" . -}}
 {{- partial "sections/testimonials.html" . -}}
 {{- partial "sections/achievements.html" . -}}
-{{- partial "sections/contact.html" . -}}
 {{ end }}
