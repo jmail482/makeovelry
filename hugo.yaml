@@ -66,7 +66,7 @@ params:
     button:
       enable: true
       name: "Case Studies"
-      url: "/blogs"
+      url: "/makeoverlyonline/case-studies"
       download: false
       newPage: false
     socialLinks:
@@ -145,7 +145,7 @@ params:
         image: ""
         featured:
           name: "Full Case Study"
-          link: "/blogs/twag-104-percent-lift/"
+          link: "/makeoverlyonline/case-studies/twag-104-percent-lift/"
         badges:
           - "Technical SEO"
           - "Multi-Location"
@@ -157,7 +157,7 @@ params:
         image: ""
         featured:
           name: "Full Case Study"
-          link: "/blogs/excalibur-engine-development/"
+          link: "/makeoverlyonline/case-studies/excalibur-engine-development/"
         badges:
           - "AI Infrastructure"
           - "Multi-LLM"
@@ -169,7 +169,7 @@ params:
         image: ""
         featured:
           name: "Full Case Study"
-          link: "/blogs/sologlass-excalibur-v2-audit/"
+          link: "/makeoverlyonline/case-studies/sologlass-excalibur-v2-audit/"
         badges:
           - "Technical SEO"
           - "Local SEO"
@@ -180,7 +180,7 @@ params:
         image: ""
         featured:
           name: "Full Case Study"
-          link: "/blogs/peak15-systems-seo-audit/"
+          link: "/makeoverlyonline/case-studies/peak15-systems-seo-audit/"
         badges:
           - "SaaS SEO"
           - "Content Strategy"
@@ -191,7 +191,7 @@ params:
         image: ""
         featured:
           name: "Full Case Study"
-          link: "/blogs/distillery-events-v3-audit/"
+          link: "/makeoverlyonline/case-studies/distillery-events-v3-audit/"
         badges:
           - "Entity SEO"
           - "Schema"
@@ -224,7 +224,7 @@ params:
 
   footer:
     recentPosts:
-      path: "blogs"
+      path: "case-studies"
       count: 3
       title: "Recent Case Studies"
       enable: true
@@ -251,5 +251,5 @@ menu:
     - identifier: blog
       name: Case Studies
       title: All case studies
-      url: /blogs
+      url: /case-studies
       weight: 1

@@ -1,0 +1,12 @@
+<script>
+function scrollToSection(el) {
+    var section = el.getAttribute('data-section');
+    var target = document.getElementById(section);
+    if (target) {
+        target.scrollIntoView({ behavior: 'smooth' });
+        history.replaceState(null, '', el.getAttribute('href'));
+        return false;
+    }
+    return true;
+}
+</script>
