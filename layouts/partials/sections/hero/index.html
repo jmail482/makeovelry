@@ -14,16 +14,16 @@
                 </div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-8 content {{ if .Site.Params.animate }}animate{{ end }}" id="primary-font">
-                <span class="subtitle">
+                <span class="subtitle" style="color: #000000 !important; opacity: 1 !important;">
                     {{ $hero.intro }}
                 </span>
-                <h1>
+                <h1 style="color: #007bff !important; opacity: 1 !important;">
                     {{ $hero.title }}
                 </h1>
-                <h2>
+                <h2 style="color: #000000 !important; opacity: 1 !important;">
                     {{ $hero.subtitle }}
                 </h2>
-                <p class="hero-content">
+                <p class="hero-content" style="color: #000000 !important; opacity: 1 !important;">
                     {{ $hero.content | markdownify }}
                 </p>
 
@@ -31,8 +31,8 @@
                 <div class="hero-stats">
                     {{ range .Site.Params.hero.stats }}
                     <div class="hero-stat">
-                        <div class="stat-number">{{ .value }}</div>
-                        <div class="stat-label">{{ .label }}</div>
+                        <div class="stat-number" style="color: #007bff !important;">{{ .value }}</div>
+                        <div class="stat-label" style="color: #000000 !important; opacity: 1 !important;">{{ .label }}</div>
                     </div>
                     {{ end }}
                 </div>
