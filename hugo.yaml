@@ -60,7 +60,7 @@ params:
     title: "Jonathan."
     subtitle: "I make businesses visible where it counts."
     content: "Independent SEO consultant with 14 years in digital marketing. I build AI-driven marketing engines and execute technical SEO strategies that produce measurable, documented results — not promises."
-    image: "/images/profile.jpg"
+    image: "/makeoverlyonline/images/profile.jpg"
     bottomImage:
       enable: false
     button:
@@ -81,7 +81,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/profile.jpg"
+    image: "/makeoverlyonline/images/profile.jpg"
     content: |-
       Fourteen years in digital marketing. A six-year retainer engagement leading SEO for a Canadian wealth advisory firm — anchor advisor lifted from #6 to #2 on Wealth Professional Canada's Top-50 list during the engagement. 138 bi-weekly KPI reports shipped.
 
