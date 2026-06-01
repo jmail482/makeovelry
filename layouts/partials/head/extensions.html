@@ -10,6 +10,44 @@ section { background-color: #ffffff !important; }
 .dark section { background-color: #1a1a2e !important; }
 .dark .deep-case-study { background: rgba(255,255,255,0.03) !important; }
 .dark .testimonial-card { background: rgba(255,255,255,0.03) !important; }
+
+/* All black text */
+body, body.light {
+    color: #000000 !important;
+    --text-color: #000000;
+    --text-secondary-color: #000000;
+}
+h1, h2, h3, h4, h5, h6,
+p, li, span, div, a,
+.subtitle, .hero-content,
+.section-heading, .section-subheading,
+#primary-font h2,
+#primary-font .subtitle,
+.card-body, .card-title, .card-text,
+.nav-link,
+.deep-case-study, .deep-case-study h4, .deep-case-study p, .deep-case-study li,
+.testimonial-card, .testimonial-card blockquote, .testimonial-card .attribution,
+.hero-stat .stat-label,
+.metric .metric-label,
+.case-meta, .case-meta span {
+    color: #000000 !important;
+}
+
+/* Keep primary color for accent elements only */
+.hero-stat .stat-number,
+.metric .metric-value,
+.btn-outline,
+.testimonial-card .quote-mark {
+    color: var(--primary-color, #007bff) !important;
+}
+
+/* Keep link colors sensible */
+a.btn, a.btn-outline {
+    color: var(--primary-color, #007bff) !important;
+}
+a.btn:hover, a.btn-outline:hover {
+    color: #ffffff !important;
+}
 </style>
 <script>
 function scrollToSection(el) {
@@ -22,4 +60,35 @@ function scrollToSection(el) {
     }
     return true;
 }
+
+// On page load: check URL path for section and scroll to it
+(function() {
+    document.addEventListener('DOMContentLoaded', function() {
+        var base = '/makeoverlyonline/';
+        var path = window.location.pathname;
+        if (path.indexOf(base) === 0) {
+            var section = path.substring(base.length).replace(/\/$/, '');
+            if (section && section !== '') {
+                var target = document.getElementById(section);
+                if (target) {
+                    setTimeout(function() {
+                        target.scrollIntoView({ behavior: 'smooth' });
+                    }, 300);
+                }
+            }
+        }
+        // Also handle hash
+        if (window.location.hash) {
+            var hash = window.location.hash.substring(1);
+            var target = document.getElementById(hash);
+            if (target) {
+                // Clean the URL
+                history.replaceState(null, '', base + hash);
+                setTimeout(function() {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }, 300);
+            }
+        }
+    });
+})();
 </script>
