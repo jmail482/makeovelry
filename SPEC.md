@@ -102,15 +102,15 @@ export PLAYWRIGHT_BROWSERS_PATH=/work/tools/ms-playwright
 
 ## STILL NEEDED (user must provide)
 - [ ] Real resume PDF → `static/files/jonathan-nishikawa-resume.pdf`
-- [ ] Project screenshots (5) → `static/images/projects/`
+- [x] Project screenshots (5) → branded metric cards generated → `static/images/projects/` (swap for real screenshots anytime)
 - [ ] Verbatim testimonial quotes (3)
 - [ ] Formspree form ID for contact form
 
 ---
 
 ## CURRENT STATE (as of 2026-06-01)
-- main: `e0d4489`
-- gh-pages: `f0709e8` (deployed)
+- main: `6b87689`
+- gh-pages: `6a7d442` (deployed)
 - Home: hero only ✅
 - Photo left/content right ✅
 - Black text ✅
@@ -118,6 +118,7 @@ export PLAYWRIGHT_BROWSERS_PATH=/work/tools/ms-playwright
 - Social icons in hero: LinkedIn, GitHub, Email (matches LOCKED) ✅
 - All nav = separate pages ✅
 - Section pages live: /about/ /featured-work/ /deep-case-study/ /experience/ /contact/ ✅
+- Featured Work cards: 5 branded metric images live (no broken images) ✅
 - Section pages generated via `content/{page}.md` with `type: sectionpage` ✅
 - Recent posts hidden ✅
 - Nav logo (broken img) removed ✅
