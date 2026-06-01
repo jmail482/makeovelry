@@ -7,50 +7,39 @@ section { background-color: #ffffff !important; }
 .deep-case-study { background: #f8f9fa !important; }
 .testimonial-card { background: #f8f9fa !important; }
 
-/* Override CSS variables to black */
-:root {
-    --text-color: #000000 !important;
-    --text-secondary-color: #000000 !important;
+/* NUCLEAR: every single element on the page = black, opacity 1 */
+*, *::before, *::after {
+    color: #000000 !important;
+    opacity: 1 !important;
 }
 
-/* ALL BLACK TEXT — targeted elements, no wildcard container */
-body, body.light { color: #000000 !important; }
-h1, h2, h3, h4, h5, h6 { color: #000000 !important; opacity: 1 !important; }
-p, li, span, div, label, strong, em, b, i, blockquote { color: #000000 !important; }
-.subtitle { color: #000000 !important; opacity: 1 !important; }
-.hero-content { color: #000000 !important; opacity: 1 !important; }
-.nav-link { color: #000000 !important; }
-.card-body, .card-title, .card-text { color: #000000 !important; }
-.deep-case-study h4, .deep-case-study p, .deep-case-study li { color: #000000 !important; }
-.testimonial-card blockquote, .testimonial-card .attribution { color: #000000 !important; }
-.hero-stat .stat-label, .metric .metric-label { color: #000000 !important; opacity: 1 !important; }
-.case-meta, .case-meta span { color: #000000 !important; }
-.badge { color: #000000 !important; }
-footer, footer p, footer a { color: #000000 !important; }
-a { color: #000000 !important; }
-
-/* BLUE ACCENTS — these override the black above with higher specificity */
+/* BLUE ACCENTS — higher specificity beats the * selector */
 #hero h1 { color: #007bff !important; }
 .hero-stat .stat-number { color: #007bff !important; }
 .metric .metric-value { color: #007bff !important; }
 .testimonial-card .quote-mark { color: #007bff !important; opacity: 0.3 !important; }
 
 /* Buttons */
-a.btn, .btn-outline, a.btn-outline { color: #007bff !important; border-color: #007bff !important; }
-a.btn:hover, .btn-outline:hover, a.btn-outline:hover { color: #ffffff !important; background-color: #007bff !important; }
+a.btn, a.btn-outline, .btn-outline { color: #007bff !important; border-color: #007bff !important; }
+a.btn:hover, a.btn-outline:hover, .btn-outline:hover { color: #ffffff !important; background-color: #007bff !important; }
 
 /* Social icons */
-.social-icons a, .social-icons a i, .social-icons a svg,
-.social-icons a:hover, .social-icons a:hover i { color: #007bff !important; }
+.social-icons a, .social-icons a i, .social-icons a svg { color: #007bff !important; }
 
 /* Project/case study links */
-.project-link a, .btn.btn-outline-primary { color: #007bff !important; }
+.project-link a, .btn.btn-outline-primary, .case-study-link { color: #007bff !important; }
+.deep-case-study a.case-study-link { color: #007bff !important; }
 
 /* Nav brand */
 .navbar-brand, .navbar-brand span { color: #007bff !important; }
 
 /* Read Full Case Study links */
-a[href*="case-stud"], .deep-case-study a { color: #007bff !important; }
+a[href*="case-stud"] { color: #007bff !important; }
+
+/* Dark mode support */
+.dark body { background-color: #1a1a2e !important; }
+.dark section { background-color: #1a1a2e !important; }
+.dark *, .dark *::before, .dark *::after { color: #e0e0e0 !important; }
 </style>
 <script>
 function scrollToSection(el) {
@@ -66,18 +55,6 @@ function scrollToSection(el) {
 
 (function() {
     document.addEventListener('DOMContentLoaded', function() {
-        // Force CSS variables
-        document.documentElement.style.setProperty('--text-color', '#000000', 'important');
-        document.documentElement.style.setProperty('--text-secondary-color', '#000000', 'important');
-
-        // Force hero opacity fix via JS as final backstop
-        var heroH2 = document.querySelector('#hero h2');
-        if (heroH2) { heroH2.style.setProperty('opacity', '1', 'important'); heroH2.style.setProperty('color', '#000000', 'important'); }
-        var heroSubtitle = document.querySelector('#hero .subtitle');
-        if (heroSubtitle) { heroSubtitle.style.setProperty('opacity', '1', 'important'); heroSubtitle.style.setProperty('color', '#000000', 'important'); }
-        var heroContent = document.querySelector('#hero .hero-content');
-        if (heroContent) { heroContent.style.setProperty('opacity', '1', 'important'); heroContent.style.setProperty('color', '#000000', 'important'); }
-
         // Section navigation
         var base = '/makeoverlyonline/';
         var path = window.location.pathname;
