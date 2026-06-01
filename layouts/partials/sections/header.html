@@ -89,79 +89,63 @@
                         </li>
                     {{ end }}
 
-                    {{ if and (.Site.Params.about.enable | default false) (not (.Site.Params.navbar.menus.disableAbout | default false)) }}
+                    <!-- 1. Home -->
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="{{ .Site.Home.RelPermalink }}" aria-label="home">
+                            Home
+                        </a>
+                    </li>
+
+                    <!-- 2. About -->
+                    {{ if .Site.Params.about.enable | default false }}
                     <li class="nav-item navbar-text">
                         <a class="nav-link" href="{{ .Site.Home.RelPermalink }}about" data-section="about" onclick="return scrollToSection(this)" aria-label="about">
-                            {{ .Site.Params.about.title | default (i18n "nav_about") }}
+                            About
                         </a>
                     </li>
                     {{ end }}
 
-                    {{ if and (.Site.Params.experience.enable | default false) (not (.Site.Params.navbar.menus.disableExperience | default false)) }}
+                    <!-- 3. Featured Work -->
+                    {{ if .Site.Params.projects.enable | default false }}
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="{{ .Site.Home.RelPermalink }}experience" data-section="experience" onclick="return scrollToSection(this)"
-                            aria-label="experience">
-                            {{ .Site.Params.experience.title | default (i18n "nav_experience") }}
+                        <a class="nav-link" href="{{ .Site.Home.RelPermalink }}projects" data-section="projects" onclick="return scrollToSection(this)" aria-label="featured work">
+                            Featured Work
                         </a>
                     </li>
                     {{ end }}
 
-                    {{ if and (.Site.Params.education.enable | default false) (not (.Site.Params.navbar.menus.disableEducation | default false)) }}
-                    <li class="nav-item navbar-text">
-                        <a class="nav-link" href="{{ .Site.Home.RelPermalink }}education" data-section="education" onclick="return scrollToSection(this)"
-                            aria-label="education">
-                            {{ .Site.Params.education.title | default (i18n "nav_education") }}
-                        </a>
-                    </li>
-                    {{ end }}
-
-                    {{ if and (.Site.Params.projects.enable | default false) (not (.Site.Params.navbar.menus.disableProjects | default false)) }}
-                    <li class="nav-item navbar-text">
-                        <a class="nav-link" href="{{ .Site.Home.RelPermalink }}projects" data-section="projects" onclick="return scrollToSection(this)"
-                            aria-label="projects">
-                            {{ .Site.Params.projects.title | default (i18n "nav_projects") }}
-                        </a>
-                    </li>
-                    {{ end }}
-
+                    <!-- 4. Deep Case Study -->
                     {{ if .Site.Params.deepCaseStudy }}
                     {{ if .Site.Params.deepCaseStudy.enable | default false }}
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="{{ .Site.Home.RelPermalink }}deep-case-study" data-section="deep-case-study" onclick="return scrollToSection(this)"
-                            aria-label="deep dive">
-                            Deep Dive
+                        <a class="nav-link" href="{{ .Site.Home.RelPermalink }}deep-case-study" data-section="deep-case-study" onclick="return scrollToSection(this)" aria-label="deep case study">
+                            Deep Case Study
                         </a>
                     </li>
                     {{ end }}
                     {{ end }}
 
-                    {{ if and (.Site.Params.achievements.enable | default false) (not (.Site.Params.navbar.menus.disableAchievements | default false)) }}
+                    <!-- 5. Experience -->
+                    {{ if .Site.Params.experience.enable | default false }}
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="{{ .Site.Home.RelPermalink }}achievements" data-section="achievements" onclick="return scrollToSection(this)"
-                            aria-label="achievements">
-                            {{ .Site.Params.achievements.title | default (i18n "nav_achievements") }}
+                        <a class="nav-link" href="{{ .Site.Home.RelPermalink }}experience" data-section="experience" onclick="return scrollToSection(this)" aria-label="experience">
+                            Experience
                         </a>
                     </li>
                     {{ end }}
 
-                    {{ if and (.Site.Params.contact.enable | default false) (not (.Site.Params.navbar.menus.disableContact | default false)) }}
+                    <!-- 6. Contact -->
+                    {{ if .Site.Params.contact.enable | default false }}
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="{{ .Site.Home.RelPermalink }}contact" data-section="contact" onclick="return scrollToSection(this)"
-                            aria-label="contact">
-                            {{ .Site.Params.contact.title | default (i18n "nav_contact") }}
+                        <a class="nav-link" href="{{ .Site.Home.RelPermalink }}contact" data-section="contact" onclick="return scrollToSection(this)" aria-label="contact">
+                            Contact
                         </a>
                     </li>
                     {{ end }}
 
-                    {{ if and .Site.Menus.main (.Site.Params.navbar.enableSeparator | default false) }}
-                        <li class="nav-item navbar-text d-none d-lg-block d-xl-block"><div class="nav-link nav-link-sep"></div></li>
-                        <div class="dropdown-divider"></div>
-                    {{ end }}
-
-                    <!-- custom menus from the user -->
+                    <!-- 7. Blog -->
                     {{ range .Site.Menus.main }}
                     {{ if .HasChildren }}
-                    <!-- Dropdown menu -->
                     <li class="nav-item navbar-text dropdown">
                         <a class="nav-link dropdown-toggle" href="{{ .URL }}" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="{{ .Title }}">
@@ -169,23 +153,21 @@
                         </a>
                         <div class="dropdown-menu shadow-lg rounded" aria-labelledby="navbarDropdown">
                             {{ range .Children }}
-                            <a class="dropdown-item text-center nav-link" href="{{ .URL }}"
-                                title="{{ .Title }}">
+                            <a class="dropdown-item text-center nav-link" href="{{ .URL }}" title="{{ .Title }}">
                                 {{ .Name }}
                             </a>
                             {{ end }}
                         </div>
                     </li>
-                    {{else}}
-                    <!-- Single menu item -->
+                    {{ else }}
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="{{.URL}}" title="{{ .Title }}">
+                        <a class="nav-link" href="{{ .URL }}" title="{{ .Title }}">
                             {{ .Pre }}
                             {{ .Name }}
                         </a>
                     </li>
-                    {{end}}
-                    {{end}}
+                    {{ end }}
+                    {{ end }}
 
                     {{- partial "sections/language-switcher.html" . -}}
 

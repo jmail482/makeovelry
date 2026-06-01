@@ -443,7 +443,7 @@ params:
 menu:
   main:
     - identifier: blog
-      name: Case Studies
-      title: All case studies
+      name: Blog
+      title: Blog
       url: /case-studies
       weight: 1
