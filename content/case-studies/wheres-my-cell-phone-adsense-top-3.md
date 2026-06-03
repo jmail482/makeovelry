@@ -8,7 +8,7 @@ description: "Phone misplacement is a near-universal recurring experience. In 20
 summary: "wheresmycellphone.net ranked number two organically for its primary target query, outranking two authority-level competitor sites. AdSense generated weekly income for approximately 15 months. The income stream ended when Google launched its native Find My Phone feature directly in search results."
 stat: "#3"
 statLabel: "Organic Ranking"
-statSubtitle: "wheresmycellphone.net · 15 Months AdSense"
+statSubtitle: "wheresmycellphone.net<br>15 Months AdSense"
 cover:
   image: "/makeoverlyonline/images/case-studies/wheres-my-cell-phone-adsense-top-3.jpg"
   alt: ""
