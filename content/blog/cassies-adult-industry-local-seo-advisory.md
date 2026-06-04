@@ -1,11 +1,11 @@
 ---
-title: "Local SEO for a 5-location adult entertainment business, with every standard playbook tool unavailable"
+title: "Cassie's: Local SEO for a 5-location adult entertainment business, with every standard playbook tool unavailable"
 date: 2026-05-28T14:00:00-05:00
 draft: false
 tags: ["case study", "local SEO", "adult industry", "GBP", "citation building"]
 categories: ["case studies"]
 description: "Five Australian locations. Citation directories that decline adult content. GMB verification requiring exterior signage photos. Competitors stuffing search keywords into their GMB business names in violation of Google's guidelines — and Google not acting on reports."
-summary: "The operator ran an adult entertainment business across five Australian locations. The adult industry classification removed most standard local SEO tools from the available options. The engagement delivered a prioritized plan that worked within those constraints."
+summary: "Daniel operated Cassie's across five Australian locations. The adult industry classification removed most standard local SEO tools from the available options. The engagement delivered a prioritized plan that worked within those constraints."
 cover:
   image: ""
   alt: ""
@@ -16,7 +16,7 @@ TocOpen: false
 
 ## The situation
 
-The operator ran an adult entertainment business across five Australian locations: New South Wales (Sydney), Victoria, and three additional states [client brief, Sep 2022]. They were ranking adequately for primary metropolitan targets but sought stronger visibility in smaller city and suburban markets.
+Daniel operated **Cassie's (cassies.com.au)**, an adult entertainment business across five Australian locations: New South Wales (Sydney), Victoria, and three additional states [client brief, Sep 2022]. He was ranking adequately for primary metropolitan targets but sought stronger visibility in smaller city and suburban markets.
 
 **Engagement: September 26, 2022.**
 

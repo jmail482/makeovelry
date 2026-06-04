@@ -52,7 +52,7 @@ Winnipeg officially surpassed 850,000 residents in early 2026, adding 8,245 new 
 
 **Competitive audit of the top four Winnipeg practices** [live site audit, Mar 2026]:
 
-| Signal | Practice A | Practice B | Practice C | Practice D |
+| Signal | Kildonan Crossing | Cholakis | Fresh Dental | Assiniboine |
 |---|---|---|---|---|
 | Schema markup | ✅ | ❌ Missing | ✅ | ✅ |
 | Online booking | ✅ | ✅ | ✅ | ❌ Missing |

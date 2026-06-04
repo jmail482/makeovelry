@@ -4,8 +4,8 @@ date: 2026-05-27T22:00:00-05:00
 draft: false
 tags: ["case study", "entity SEO", "schema", "hospitality", "Toronto"]
 categories: ["case studies"]
-description: "The brand SERP is being cannibalized by thedistillerydistrict.com. The audit found Google miscategorized Distillery Events as a sub-attribute of the Distillery District neighborhood — and a 5★/500-review schema block on the homepage whose values don't reconcile with public review data, which is an active Google manual-action risk."
-summary: "The brand SERP is being cannibalized by thedistillerydistrict.com. The audit found Google miscategorized Distillery Events as a sub-attribute of the Distillery District neighborhood — and a 5★/500-review schema block whose values don't reconcile with public review data — a manual-action risk. Full v3.1 marketing engine audit with 22 tabs and projected $233K–$382K 12-month revenue recovery."
+description: "The brand SERP is being cannibalized by thedistillerydistrict.com. The audit found Google miscategorized Distillery Events as a sub-attribute of the Distillery District neighborhood — and a fabricated 5★/500-review schema block on the homepage that's an active Google manual-action risk."
+summary: "The brand SERP is being cannibalized by thedistillerydistrict.com. The audit found Google miscategorized Distillery Events as a sub-attribute of the Distillery District neighborhood — and a fabricated 5★/500-review schema block that's a manual-action risk. Full v3.1 marketing engine audit with 22 tabs and projected $233K–$382K 12-month revenue recovery."
 cover:
   image: ""
   alt: ""
@@ -16,7 +16,7 @@ TocOpen: false
 
 ## The headline
 
-**Signal Density: 38.3% — below the Excalibur category baseline** [Excalibur V3.1 audit, May 2026]. Across four commercial categories (corporate, weddings, group dining, event spaces), Distillery Events has zero Map Pack appearances. On the brand's own searches, thedistillerydistrict.com outranks them (Map Pack 2 / Top-3 9 / Top-10 15 vs DE's 1 / 7 / 12) [Excalibur V3.1 SERP analysis, May 2026].
+**Signal Density: 38.3% — Tier: Losing** [Excalibur V3.1 audit, May 2026]. Across four commercial categories (corporate, weddings, group dining, event spaces), Distillery Events has zero Map Pack appearances. On the brand's own searches, thedistillerydistrict.com outranks them (Map Pack 2 / Top-3 9 / Top-10 15 vs DE's 1 / 7 / 12) [Excalibur V3.1 SERP analysis, May 2026].
 
 ## The thesis
 
@@ -24,11 +24,11 @@ The events business is being treated by Google as a feature of the neighborhood,
 
 ## The schema discovery (post-publication correction)
 
-The original v3 audit said "zero JSON-LD anywhere." That was wrong. A second LLM running the same audit caught what the initial crawler missed: the homepage carries a `Restaurant` schema block (wrong type for an events business) with an `aggregateRating: { "ratingValue": "5", "reviewCount": "500" }` block whose values do not reconcile with the publicly observable review data [raw HTML crawl, May 2026].
+The original v3 audit said "zero JSON-LD anywhere." That was wrong. A second LLM running the same audit caught what the initial crawler missed: the homepage carries a `Restaurant` schema block (wrong type for an events business) with a fabricated `aggregateRating: { "ratingValue": "5", "reviewCount": "500" }` [raw HTML crawl, May 2026].
 
-Real GBP rating is 3.8 stars on 32 reviews [Google Business Profile, May 2026]. Yelp is 4.x on 86 reviews [Yelp listing, May 2026]. No public source matches "5/500."
+Real GBP rating is 3.8 stars on 32 reviews [Google Business Profile, May 2026]. Yelp is 4.x on 86 reviews [Yelp listing, May 2026]. There is no legitimate source for "5/500."
 
-Per Google's review-snippet guidelines, review schema that doesn't match verifiable public review data is a documented manual-action target [^1]. The audit's new Priority 0: **reconcile or remove this schema block before doing any other SEO work.**
+Per Google's review-snippet guidelines, fabricated review schema is a documented manual-action target [^1]. The audit's new Priority 0: **remove this before doing any other SEO work.**
 
 ## The architectural fix
 
@@ -62,4 +62,4 @@ Independent LLM verification is now part of the methodology. One model running t
 
 *Full v3.1 marketing engine audit is a 22-tab interactive HTML deliverable (~170 KB). Available on request.*
 
-[^1]: Google Search Central. *Review Snippets Structured Data.* developers.google.com/search/docs/appearance/structured-data/review-snippet. Documents inaccurate review schema as grounds for manual action.
+[^1]: Google Search Central. *Review Snippets Structured Data.* developers.google.com/search/docs/appearance/structured-data/review-snippet. Documents fabricated or inaccurate review schema as grounds for manual action.

@@ -1,11 +1,11 @@
 ---
-title: "Fixing an Angular games site's crawl architecture before it cost AdSense revenue"
+title: "SpideyGames.com: Fixing an Angular games site's crawl architecture before it cost AdSense revenue"
 date: 2026-05-28T12:30:00-05:00
 draft: false
 tags: ["case study", "technical SEO", "Angular", "AdSense", "crawl architecture"]
 categories: ["case studies"]
 description: "An AdSense-monetized games site had grown from a clean two-URL-per-game structure to four URL types, an indexed 404 page, and site-wide meta description duplication. The audit mapped the correct architecture, delivered a 301 redirect strategy, and flagged the UX imperative for ad-monetized properties."
-summary: "The site ran on Angular with AdSense monetization. The audit identified architectural drift, an indexed 404, and duplication issues, then delivered a prioritized remediation plan with a link strategy grounded in referral traffic."
+summary: "SpideyGames.com ran on Angular with AdSense monetization. The audit identified architectural drift, an indexed 404, and duplication issues, then delivered a prioritized remediation plan with a link strategy grounded in referral traffic."
 cover:
   image: ""
   alt: ""
@@ -16,9 +16,9 @@ TocOpen: false
 
 ## The situation
 
-The site was a free online games platform monetized through Google AdSense. It had grown from a clean two-URL structure to **four URL types** without a clear rationale [site audit, Mar 2022]. A 404 error page had been indexed by Google with a content-style page title. Meta descriptions had serious duplication issues across pages [site audit, Mar 2022].
+SpideyGames.com was a free online games website monetized through Google AdSense. The site had grown from a clean two-URL structure to **four URL types** without a clear rationale [site audit, Mar 2022]. A 404 error page had been indexed by Google with a content-style page title. Meta descriptions had serious duplication issues across pages [site audit, Mar 2022].
 
-**Advisory date: March 27–29, 2020. Platform: Angular. Implementation responsibility: the site owner.**
+**Advisory date: March 27–29, 2020. Platform: Angular. Implementation responsibility: Harish.**
 
 ## What the audit mapped
 
@@ -41,7 +41,7 @@ The site was a free online games platform monetized through Google AdSense. It h
 
 ## The outcome
 
-Advisory delivered. The owner confirmed the team had begun redirecting number-based URLs [engagement records, Mar 2020]. Angular implementation was the owner's responsibility throughout.
+Advisory delivered. Harish confirmed he had begun redirecting number-based URLs [engagement records, Mar 2020]. Angular implementation was Harish's responsibility throughout.
 
 ## Sources
 

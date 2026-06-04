@@ -1,10 +1,10 @@
 ---
-title: "A Wix-to-WordPress migration proposal for a Cleveland wedding photographer — and what it verified"
+title: "Vitaliy Photography: A Wix-to-WordPress migration proposal for a Cleveland wedding photographer — and what it verified"
 date: 2026-05-28T13:00:00-05:00
 draft: false
 tags: ["case study", "local SEO", "WordPress", "wedding photography", "proposal"]
 categories: ["case studies"]
-description: "A Cleveland wedding photographer operated a 40-page Wix site. The engagement audited it, benchmarked against Mike Staff Productions in Detroit, and delivered a four-month $4,000 migration and SEO proposal. The engagement also independently verified the $1,000/month TWAG billing rate."
+description: "Vitaliy Pysmennyy operated a 40-page Wix wedding photography site in Cleveland. The engagement audited it, benchmarked against Mike Staff Productions in Detroit, and delivered a four-month $4,000 migration and SEO proposal. The engagement also independently verified the $1,000/month TWAG billing rate."
 summary: "A full competitive audit, phased WordPress migration plan, and $4,000 proposal delivered for a Cleveland wedding photographer whose Wix site was insufficient for meaningful SEO results. The engagement independently documented the $1,000/month TWAG retainer rate — stated directly to the prospective client as a pricing reference on June 14, 2022."
 cover:
   image: ""
@@ -16,7 +16,7 @@ TocOpen: false
 
 ## The situation
 
-The photographer operated a wedding photography business in Cleveland, Ohio with a site built on the Wix platform — approximately 40 pages (22 posts, 5 category pages, and the remainder regular pages) [site audit, Jun 2022]. The question was direct: was it worth trying to rank the existing Wix site, or did the business need a complete rebuild?
+Vitaliy Pysmennyy operated a wedding photography business in Cleveland, Ohio with a site built on the Wix platform — approximately 40 pages (22 posts, 5 category pages, and the remainder regular pages) [site audit, Jun 2022]. His question was direct: was it worth trying to rank the existing Wix site, or did he need a complete rebuild?
 
 **Engagement: June 14–15, 2022 + September 4, 2022 follow-up.**
 
@@ -40,7 +40,7 @@ The audit delivered its assessment: **the Wix platform was insufficient for mean
 
 ## What it verified
 
-On June 14, 2022, the **$1,000/month TWAG retainer rate** was disclosed directly to the photographer as a pricing reference point [engagement records, Jun 14, 2022][^2]. This independently corroborates the TWAG billing rate at that point in the engagement — confirmed in a separate prospective client conversation, not in a TWAG document.
+On June 14, 2022, the **$1,000/month TWAG retainer rate** was disclosed directly to Vitaliy as a pricing reference point [engagement records, Jun 14, 2022][^2]. This independently corroborates the TWAG billing rate at that point in the engagement — confirmed in a separate prospective client conversation, not in a TWAG document.
 
 ## The outcome
 
@@ -49,4 +49,4 @@ A follow-up on September 4, 2022 indicated the proposal had not yet converted [e
 ## Sources
 
 [^1]: Wix. *Wix SEO — Limitations and Capabilities.* support.wix.com. Wix's platform constraints around URL structure, canonical tags, and technical SEO customization are documented in their official support materials.
-[^2]: Engagement records. June 14, 2022 consultation notes on file. $1,000/month rate stated to the photographer as a reference pricing point during proposal discussion.
+[^2]: Engagement records. June 14, 2022 consultation notes on file. $1,000/month rate stated to Vitaliy Pysmennyy as a reference pricing point during proposal discussion.
