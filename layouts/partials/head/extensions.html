@@ -415,24 +415,30 @@ section h3.text-center, .title h2{
 </style>
 
 <script>
-// Auto-fit project stat numbers to fit container width — short stats stay big,
-// long stats scale down until they fit on a single line.
+// Auto-fit project stat numbers: find the smallest size needed by the LONGEST stat,
+// then apply that same size to EVERY stat on the grid. Consistent visual hierarchy.
 (function(){
   function fit() {
     var nums = document.querySelectorAll('#projects .project-stat-number');
+    if (!nums.length) return;
+    // Reset all to default first so measurements are clean
+    nums.forEach(function(el){ el.style.fontSize = ''; });
+    // Find the smallest size needed across all stats
+    var minSize = 3.2;  // rem (matches CSS default)
     nums.forEach(function(el){
-      el.style.fontSize = '';  // reset to default (3.2rem)
       var card = el.closest('.project-card-head');
       if (!card) return;
-      var maxWidth = card.clientWidth * 0.86;  // 86% of card width (leaves padding margin)
-      var size = 3.2; // rem
-      // Shrink iteratively until it fits, floor at 1.5rem
+      var maxWidth = card.clientWidth * 0.86;
+      var size = 3.2;
       var safety = 30;
       while (el.scrollWidth > maxWidth && size > 1.5 && safety-- > 0) {
         size -= 0.1;
         el.style.fontSize = size + 'rem';
       }
+      if (size < minSize) minSize = size;
     });
+    // Apply the smallest needed size to ALL stats for consistency
+    nums.forEach(function(el){ el.style.fontSize = minSize + 'rem'; });
   }
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', fit);
