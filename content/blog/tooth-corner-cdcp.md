@@ -4,15 +4,15 @@ date: 2026-05-14T11:00:00-05:00
 draft: false
 tags: ["case study", "healthcare", "DSO", "CDCP", "programmatic SEO", "Ontario"]
 categories: ["case studies"]
-description: "Active Tooth Corner engagement: a programmatic approach to Canadian dental DSO discoverability across the long tail of CDCP-driven patient acquisition. 30+ Ontario locations, multi-property hub architecture, mass-audit framework deployable across 130-client cohorts."
-summary: "Active Tooth Corner engagement: a programmatic approach to Canadian dental DSO discoverability across the long tail of CDCP-driven patient acquisition. 30+ Ontario locations. Multi-property hub architecture + mass-audit framework."
+description: "Third-party programmatic analysis of Canadian dental DSO discoverability across the long tail of CDCP-driven patient acquisition. Worked example uses Tooth Corner, a publicly visible 30+ location Ontario DSO. Multi-property hub architecture, mass-audit framework deployable across 130-client cohorts."
+summary: "Third-party programmatic analysis of Canadian dental DSO discoverability across the long tail of CDCP-driven patient acquisition. Worked example uses Tooth Corner — a publicly visible 30+ location Ontario DSO. Multi-property hub architecture + mass-audit framework."
 ShowToc: true
 TocOpen: false
 ---
 
 ## The brief
 
-**Tooth Corner** — Ontario dental DSO with 30+ locations across the province [client brief, 2026]. Active engagement (2026). Objective: own the long tail of CDCP-driven patient acquisition queries across Canada, with primary capture in Ontario.
+**Tooth Corner** — Ontario dental DSO with 30+ locations across the province [toothcorner.com, accessed 2026]. Third-party analysis of a publicly visible DSO. Worked-example objective: own the long tail of CDCP-driven patient acquisition queries across Canada, with primary capture in Ontario.
 
 ## What CDCP did to dental search
 
@@ -43,7 +43,7 @@ Output per location: factor scorecard, competitor leaderboard, category visibili
 
 ## Where this is going
 
-Active engagement, in flight. Mapping done. Architectural recommendations written. Deployment phase next — 30+ locations.
+Mapping done. Architectural recommendations written. Methodology is deployable across any DSO of similar scale — 30+ locations.
 
 ## Sources
 

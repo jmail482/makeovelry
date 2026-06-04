@@ -4,8 +4,8 @@ date: 2026-05-28T13:30:00-05:00
 draft: false
 tags: ["case study", "digital marketing strategy", "USP", "artist marketing", "email list"]
 categories: ["case studies"]
-description: "Bonnie Haig wanted to grow her email list. Her site, Instagram, and social presence communicated no commercial intent — only one 'special discounts' reference, no selling visible on Instagram, no Facebook business page. The engagement reframed the goal and recommended building her identity around her nursing background."
-summary: "Before advising on email list growth, the audit identified the underlying problem: no one visiting Bonnie's site could determine whether she sold anything. The central recommendation was a USP built around her nursing professional background."
+description: "Bonnie Haig wanted to grow her email list. Her site, Instagram, and social presence communicated no commercial intent — only one 'special discounts' reference, no selling visible on Instagram, no Facebook business page. The engagement reframed the goal and recommended building her identity around her nursing-to-art transition, publicly documented on her Facebook page."
+summary: "Before advising on email list growth, the audit identified the underlying problem: no one visiting Bonnie's site could determine whether she sold anything. The central recommendation was a USP built around her nursing professional background — a transition publicly documented on her Facebook business page."
 cover:
   image: ""
   alt: ""
@@ -16,11 +16,11 @@ TocOpen: false
 
 ## The stated goal
 
-Bonnie Haig was a painter with **18 paintings** showcased on her website [site audit] and a stated goal of growing her email subscriber list.
+Bonnie Haig was a painter with **18 paintings** showcased on her website [bonniehaig.com][^3] and a stated goal of growing her email subscriber list.
 
 ## The actual problem
 
-The engagement conducted a full audit of the website, Instagram, and social presence [site audit, bonniehaig.com]. What the audit found:
+The engagement conducted a full audit of the website, Instagram, and social presence [site audit, bonniehaig.com][^3]. What the audit found:
 
 - Only **one reference to "special discounts"** anywhere on the site [site audit]
 - **No mention of selling** on Instagram [Instagram audit]
@@ -36,7 +36,7 @@ Before answering the email list question, the engagement reframed the task. The 
 
 ## The USP recommendation
 
-The central recommendation: build Bonnie's identity around her **nursing professional background**.
+The central recommendation: build Bonnie's identity around her **nursing professional background** — a transition she has publicly documented on her own Facebook business page[^4].
 
 **Benchmark:** Leonid Afremov — cited as a standard for emotionally compelling visual art with a recognizable, specific identity [leonidafremov.com][^2].
 
@@ -54,3 +54,5 @@ Comprehensive marketing strategy assessment delivered [engagement records]. Impl
 
 [^1]: Meta. *Facebook Business Pages — Overview.* facebook.com/business. Facebook Business Pages enable advertising, audience targeting, and commerce features not available on personal profiles.
 [^2]: Afremov, Leonid. leonidafremov.com. Palette-knife oil technique and emotionally charged colour palette — used here as a benchmark for USP clarity in visual art marketing.
+[^3]: Bonnie Haig Art. bonniehaig.com. Artist portfolio site referenced in audit.
+[^4]: Bonnie Haig Art. Facebook business page, April 24, 2021 post. facebook.com/Bonniehaigart. Public statement: "Getting ready to retire from nursing, and switch to art full time is very exciting for me. Trying to find my artistic voice, practicing basic portrait drawing, learning from my wonderful art mentors Elizabeth Floyd, and currently Chelsea Lang."

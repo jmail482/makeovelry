@@ -22,9 +22,9 @@ Excalibur is a structured multi-LLM marketing audit framework. It assigns specif
 
 **V2 — Sologlass.ca (April 25, 2026).** The first documented production deployment. A 14-module Business Growth Intelligence Report covering an ICBC-certified BC auto glass shop. Delivered as tabbed interactive HTML with six core sections. Evidence protocol: every finding tagged as VERIFIED / SITE CRAWL / AUTH SOURCE / NEEDS VALIDATION / CALCULATED. Data inputs: SEO PowerSuite Rank Tracker v8.50.18 [SEO PowerSuite][^1] geo-located from both business addresses, direct site crawl.
 
-**V3.1 — Distillery Events (May 2026).** The primary LLM audit reported "zero JSON-LD anywhere." A second independent LLM running the same audit caught what the primary crawler missed: the homepage carried a Restaurant schema block with a fabricated aggregateRating — 5 stars / 500 reviews [raw HTML crawl, May 2026] — against a real GBP rating of 3.8 stars on 32 reviews [Google Business Profile, May 2026].
+**V3.1 — Distillery Events (May 2026).** The primary LLM audit reported "zero JSON-LD anywhere." A second independent LLM running the same audit caught what the primary crawler missed: the homepage carried a Restaurant schema block with an aggregateRating — 5 stars / 500 reviews [raw HTML crawl, May 2026] — that did not reconcile with the publicly observable GBP rating of 3.8 stars on 32 reviews [Google Business Profile, May 2026].
 
-Per Google's review-snippet guidelines, fabricated review schema is a documented manual-action target [^2]. This became Priority 0 in the V3.1 audit.
+Per Google's review-snippet guidelines, review schema that doesn't match verifiable public review data is a documented manual-action target [^2]. This became Priority 0 in the V3.1 audit.
 
 **The methodology change locked in at V3.1:** independent LLM verification is now a required step. WebFetch and site crawlers don't reliably scan `<script type="application/ld+json">` blocks — raw HTML fetch and grep for ld+json is now part of every schema audit.
 
@@ -45,7 +45,7 @@ Per Google's review-snippet guidelines, fabricated review schema is a documented
 - M12: Revenue projection and conversion funnel modelling
 - M13: Phased roadmap with dependency sequencing
 
-Each finding is tagged to its evidence source. Claims without a source get a NEEDS VALIDATION tag — not a fabricated figure.
+Each finding is tagged to its evidence source. Claims without a source get a NEEDS VALIDATION tag — not an invented figure.
 
 ## The deliverable format
 
