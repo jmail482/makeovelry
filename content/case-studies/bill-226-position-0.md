@@ -8,7 +8,7 @@ description: "The SEO outcome of Rob Tetrault's Canadian CMB Foundation campaign
 summary: "An EIN Presswire wire achieved Featured Snippet (Position 0) on the issue's primary query for ~14 months before domain migration. The PR-as-SEO integration that most consultants under-leverage."
 stat: "14 mo"
 statLabel: "At Position 0"
-statSubtitle: "Run With Rob · Bill 226 PR Campaign"
+statSubtitle: "Run With Rob<br>Bill 226 PR Campaign"
 cover:
   image: "/makeoverlyonline/images/case-studies/bill-226-position-0.jpg"
   alt: ""
