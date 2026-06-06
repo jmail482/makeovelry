@@ -598,5 +598,20 @@ body.dark section { background: transparent !important; }
   opacity: 0.72;
   pointer-events: none; z-index: 2;
 }
+
+/* Social-icon hover: slow 900ms cubic-bezier shade to pale teal/green, override the theme's #111 black hover. */
+.nav-social-icons .nav-social-ic{
+  display:inline-flex !important;align-items:center !important;justify-content:center !important;
+  width:32px !important;height:32px !important;border-radius:50% !important;
+  background:transparent !important;border:1.5px solid #d4d4d4 !important;
+  color:#111 !important;font-size:1rem !important;text-decoration:none !important;
+  transition:background-color 900ms cubic-bezier(0.22,1,0.36,1),border-color 900ms cubic-bezier(0.22,1,0.36,1),color 900ms cubic-bezier(0.22,1,0.36,1),box-shadow 900ms cubic-bezier(0.22,1,0.36,1) !important;
+  flex:none !important;
+}
+.nav-social-icons .nav-social-ic i,
+.nav-social-icons .nav-social-ic svg{color:#111 !important;opacity:1 !important;width:15px !important;height:15px !important;font-size:15px !important;fill:#111 !important;transition:color 900ms cubic-bezier(0.22,1,0.36,1),fill 900ms cubic-bezier(0.22,1,0.36,1) !important;}
+.nav-social-icons .nav-social-ic:hover{background:#F1F8F3 !important;border-color:#A8CFB8 !important;box-shadow:0 0 0 3px rgba(168,207,184,0.18) !important;}
+.nav-social-icons .nav-social-ic:hover i,
+.nav-social-icons .nav-social-ic:hover svg{color:#5A9079 !important;fill:#5A9079 !important;}
 </style>
 
