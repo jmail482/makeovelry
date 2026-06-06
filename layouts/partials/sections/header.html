@@ -58,13 +58,15 @@
                 <span class="brand-word">Makeover<span class="brand-accent">ly</span></span>
             </a>
 
-            <!-- social icons: between brand and nav menu (desktop only) — crescent theme toggle in the middle -->
+            <!-- social icons: between brand and nav menu (desktop only) -->
             {{ if .Site.Params.hero.socialLinks }}
             <div class="nav-social-icons d-none d-lg-flex">
-                {{ $iconList := .Site.Params.hero.socialLinks.fontAwesomeIcons }}
-                {{ $midIdx := div (len $iconList) 2 }}
-                {{ range $i, $icon := $iconList }}
-                {{ if eq $i $midIdx }}
+                {{ range .Site.Params.hero.socialLinks.fontAwesomeIcons }}
+                <a href="{{ .url }}"{{ if not (hasPrefix .url "#") }} target="_blank" rel="noopener"{{ end }} class="nav-social-ic" aria-label="{{ .label | default "social" }}">
+                    <i class="{{ .icon }}"></i>
+                </a>
+                {{ end }}
+                <!-- crescent theme toggle: sits between social icons row and the Home menu link -->
                 <button id="theme-toggle" type="button" class="nav-social-ic nav-theme-toggle" aria-label="Toggle dark mode">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
@@ -81,11 +83,6 @@
                         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                     </svg>
                 </button>
-                {{ end }}
-                <a href="{{ $icon.url }}"{{ if not (hasPrefix $icon.url "#") }} target="_blank" rel="noopener"{{ end }} class="nav-social-ic" aria-label="{{ $icon.label | default "social" }}">
-                    <i class="{{ $icon.icon }}"></i>
-                </a>
-                {{ end }}
             </div>
             {{ end }}
 
