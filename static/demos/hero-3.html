@@ -496,6 +496,10 @@ section h3.text-center, .title h2{
 .deep-case-study{border-left-width:3px !important;}
 
  
+/* Permanent navbar teal-blue shadow — locks in the gradient that the theme normally only paints once .showHeaderOnTop is toggled on scroll. No flick, no scroll-trigger. Always visible from first paint. */
+header { position: sticky !important; top: 0 !important; z-index: 50 !important; background-color: #ffffff !important; }
+header .navbar, header.showHeaderOnTop { box-shadow: 0px 8px 56px rgba(15, 80, 100, 0.16) !important; transition: none !important; }
+header .navbar.animate { animation: none !important; }
 .navbar-brand{font-weight:800 !important;letter-spacing:-0.01em !important;}
 .navbar .nav-link{font-weight:500 !important;letter-spacing:0.01em;}
 
