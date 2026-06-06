@@ -662,6 +662,155 @@ Jonathan Nishikawa — SEO Consultant
 }
 </style>
 
+<style>
+/* ============================================================================
+   DARK-MODE CONTRAST OVERRIDES
+   Goal: when body has class "dark", invert the page+navbar gradients to dark
+   tones and restore text legibility against the dark background.
+   Constraint: NEVER touch any light-mode rule. Every selector below is
+   body.dark-prefixed; light mode rendering is unaffected.
+   ============================================================================ */
+
+/* Page background: dark teal valley mirroring the light-mode horizontal symmetric pattern */
+html.dark, body.dark, body.dark > * {
+  background: transparent !important;
+}
+body.dark { background: linear-gradient(to right, #0F2126 0%, #14292F 25%, #1A3038 50%, #14292F 75%, #0F2126 100%) !important; background-attachment: fixed !important; min-height: 100vh; }
+
+/* Header gradient: deeper dark teal version of the symmetric light-mode gradient */
+body.dark header { background: linear-gradient(to right, #0E1F25 0%, #14282F 18%, #1A3038 35%, #1E3742 50%, #1A3038 65%, #14282F 82%, #0E1F25 100%) !important; }
+body.dark header .navbar { box-shadow: 0px 8px 56px rgba(96, 188, 220, 0.20) !important; }
+
+/* Hero text: light grey on dark for legibility, beating the unprefixed #000 !important rules */
+html.dark body.dark #hero h1,
+html.dark body.dark #hero h2,
+html.dark body.dark #hero .subtitle,
+html.dark body.dark #hero p,
+html.dark body.dark #hero .hero-content,
+html.dark body.dark #hero .hero-content > p,
+html.dark body.dark #hero a.btn { color: #E8EEF3 !important; opacity: 1 !important; }
+
+/* Stats: numbers + labels */
+html.dark body.dark #hero .hero-stat .stat-number,
+html.dark body.dark #hero .hero-stat .stat-label,
+html.dark body.dark .hero-stat .stat-number,
+html.dark body.dark .hero-stat .stat-label { color: #E8EEF3 !important; opacity: 1 !important; }
+html.dark body.dark #hero .hero-stat .stat-label,
+html.dark body.dark .hero-stat .stat-label { opacity: 0.78 !important; }
+
+/* Resume link stays blue family but lifted for dark contrast */
+html.dark body.dark #hero a.hero-resume-link,
+html.dark body.dark .hero-resume-link,
+body.dark a[href*="Resume"] { color: #8FB4FF !important; }
+
+/* Nav links */
+html.dark body.dark .navbar .nav-link,
+html.dark body.dark .navbar-nav a { color: #D8E0E8 !important; opacity: 1 !important; }
+html.dark body.dark .navbar .nav-link:hover,
+html.dark body.dark .navbar-nav a:hover { color: #FFFFFF !important; }
+
+/* Brand text: invert charcoal-gradient to a pale-to-mid grey gradient on dark */
+html.dark html.dark body.dark .navbar-brand.brand-logo .brand-word,
+html.dark html.dark body.dark .navbar-brand.brand-logo .brand-accent {
+  background: linear-gradient(135deg, #F2F5F8 0%, #C8D2DA 45%, #98A4AE 80%, #6F7C87 100%) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  color: transparent !important;
+}
+
+/* Brand mark icon: lift the drop-shadow to a cool glow so it reads on dark */
+html.dark html.dark body.dark .navbar-brand.brand-logo .brand-mark {
+  filter: drop-shadow(0 1px 2px rgba(143, 204, 237, 0.30)) !important;
+}
+
+/* Social icons: pale border + glyph in dark mode default */
+html.dark body.dark .nav-social-icons .nav-social-ic {
+  border-color: rgba(216, 224, 232, 0.40) !important;
+  background: transparent !important;
+  color: #D8E0E8 !important;
+}
+html.dark body.dark .nav-social-icons .nav-social-ic svg,
+html.dark body.dark .nav-social-icons .nav-social-ic i { color: #D8E0E8 !important; fill: #D8E0E8 !important; }
+
+/* Social icon hover in dark mode: warm-green glow on dark panel */
+html.dark body.dark .nav-social-icons .nav-social-ic:hover {
+  background: #1A3038 !important;
+  border-color: #86BFA1 !important;
+  box-shadow: 0 0 0 3px rgba(134, 191, 161, 0.22) !important;
+}
+html.dark body.dark .nav-social-icons .nav-social-ic:hover svg,
+html.dark body.dark .nav-social-icons .nav-social-ic:hover i { color: #B6DCC5 !important; fill: #B6DCC5 !important; }
+
+/* Dark-mode toggle button itself needs a visible border on dark bg */
+body.dark #theme-toggle { background-color: transparent !important; color: #E8EEF3 !important; }
+
+/* Footer text */
+body.dark #footer, body.dark #footer * { color: #C8D2DA !important; opacity: 1 !important; }
+
+/* Section transparency stays, so the body gradient shows through everywhere */
+body.dark section { background: transparent !important; }
+body.dark .card { background-color: #1A3038 !important; }
+body.dark .deep-case-study,
+body.dark .testimonial-card { background: #1A3038 !important; color: #E8EEF3 !important; }
+</style>
+
+<script>
+/* Dark-mode runtime contrast override.
+   The CSS specificity battle was unwinnable against the universal `* { color: #000 !important }`
+   rule + theme #hero h1 !important rule + same-specificity tie issues. Instead we apply colors
+   via inline style attribute (which beats ALL stylesheet rules) when dark mode is active.
+   Reverts cleanly when dark mode is turned off — no light-mode side effects. */
+(function () {
+  const DARK_COLORS = [
+    { sel: '#hero h1, #hero h2, #hero .subtitle, #hero p, #hero .hero-content, #hero .hero-content > p, #hero a.btn', color: '#E8EEF3', opacity: '1' },
+    { sel: '#hero .hero-stat .stat-number, .hero-stat .stat-number', color: '#E8EEF3', opacity: '1' },
+    { sel: '#hero .hero-stat .stat-label, .hero-stat .stat-label', color: '#E8EEF3', opacity: '0.78' },
+    { sel: '#hero .hero-resume-link, .hero-resume-link, a[href*="Resume"]', color: '#8FB4FF', opacity: '1' },
+    { sel: '.navbar .nav-link, .navbar-nav a', color: '#D8E0E8', opacity: '1' },
+    { sel: '.nav-social-icons .nav-social-ic svg, .nav-social-icons .nav-social-ic i', color: '#D8E0E8', fill: '#D8E0E8' },
+    { sel: '#footer, #footer *', color: '#C8D2DA', opacity: '1' },
+  ];
+  const MARK = 'data-dark-applied';
+
+  function applyDark() {
+    for (const { sel, color, opacity, fill } of DARK_COLORS) {
+      document.querySelectorAll(sel).forEach((el) => {
+        if (color) el.style.setProperty('color', color, 'important');
+        if (opacity !== undefined) el.style.setProperty('opacity', opacity, 'important');
+        if (fill) el.style.setProperty('fill', fill, 'important');
+        el.setAttribute(MARK, '1');
+      });
+    }
+  }
+  function clearDark() {
+    document.querySelectorAll('[' + MARK + ']').forEach((el) => {
+      el.style.removeProperty('color');
+      el.style.removeProperty('opacity');
+      el.style.removeProperty('fill');
+      el.removeAttribute(MARK);
+    });
+  }
+  function sync() {
+    if (document.body.classList.contains('dark') || document.documentElement.classList.contains('dark')) {
+      applyDark();
+    } else {
+      clearDark();
+    }
+  }
+  // Initial sync
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', sync);
+  } else {
+    sync();
+  }
+  // Watch for class changes (theme toggle)
+  const observer = new MutationObserver(sync);
+  observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+  observer.observe(document.body, { attributes: true, attributeFilter: ['class'] });
+})();
+</script>
+
 </head>
 
 <body class="light">
