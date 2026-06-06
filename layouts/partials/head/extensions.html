@@ -613,5 +613,47 @@ body.dark section { background: transparent !important; }
 .nav-social-icons .nav-social-ic:hover{background:#F1F8F3 !important;border-color:#A8CFB8 !important;box-shadow:0 0 0 3px rgba(168,207,184,0.18) !important;}
 .nav-social-icons .nav-social-ic:hover i,
 .nav-social-icons .nav-social-ic:hover svg{color:#5A9079 !important;fill:#5A9079 !important;}
+
+/* ============================================================================
+   CRESCENT THEME TOGGLE — yellow half-moon between social icons
+   Sits in the same 32px circular slot as LinkedIn/GitHub/Email. Subtle glow.
+   ============================================================================ */
+.nav-social-icons .nav-theme-toggle{
+  padding:0 !important;outline:none !important;cursor:pointer !important;
+  background:transparent !important;border:1.5px solid #d4d4d4 !important;
+}
+.nav-social-icons .nav-theme-toggle #moon,
+.nav-social-icons .nav-theme-toggle #sun{
+  width:16px !important;height:16px !important;
+  stroke:#D4B85A !important;fill:none !important;
+  filter:drop-shadow(0 0 2px rgba(212,184,90,0.35)) drop-shadow(0 0 5px rgba(212,184,90,0.18)) !important;
+  transition:stroke 900ms cubic-bezier(0.22,1,0.36,1),filter 900ms cubic-bezier(0.22,1,0.36,1) !important;
+}
+/* Light mode shows the moon, dark mode shows the sun — keep theme behaviour */
+.nav-social-icons .nav-theme-toggle #sun{display:none;}
+body.dark .nav-social-icons .nav-theme-toggle #moon,
+html.dark .nav-social-icons .nav-theme-toggle #moon{display:none;}
+body.dark .nav-social-icons .nav-theme-toggle #sun,
+html.dark .nav-social-icons .nav-theme-toggle #sun{display:inline-block;}
+/* Hover: subtler push of the same golden glow, no green tint override */
+.nav-social-icons .nav-theme-toggle:hover{
+  background:#FFFCEF !important;border-color:#E6D08F !important;
+  box-shadow:0 0 0 3px rgba(212,184,90,0.16) !important;
+}
+.nav-social-icons .nav-theme-toggle:hover #moon,
+.nav-social-icons .nav-theme-toggle:hover #sun{
+  stroke:#C49A2A !important;
+  filter:drop-shadow(0 0 3px rgba(212,184,90,0.55)) drop-shadow(0 0 7px rgba(212,184,90,0.28)) !important;
+}
+/* Dark mode: keep moon golden, glow slightly stronger to read against the dark teal */
+body.dark .nav-social-icons .nav-theme-toggle,
+html.dark .nav-social-icons .nav-theme-toggle{
+  border-color:rgba(232,238,243,0.32) !important;
+}
+body.dark .nav-social-icons .nav-theme-toggle #sun,
+html.dark .nav-social-icons .nav-theme-toggle #sun{
+  stroke:#E5C76A !important;
+  filter:drop-shadow(0 0 3px rgba(229,199,106,0.45)) drop-shadow(0 0 7px rgba(229,199,106,0.22)) !important;
+}
 </style>
 
