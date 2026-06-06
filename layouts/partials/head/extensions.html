@@ -571,3 +571,32 @@ body.dark section { background: transparent !important; }
 })();
 </script>
 
+<style>
+/* ============================================================================
+   SITE-WIDE HERO PORTRAIT: 24 long-sweep horizontal hairlines + ivory ring
+   + grayscale filter. Promoted from /demos/hero-3.html simple-lines state.
+   ============================================================================ */
+#hero .image { position: relative; }
+#hero img.img-thumbnail {
+  filter: grayscale(1) contrast(1.42) brightness(0.96) !important;
+  box-shadow:
+    0 0 0 4px rgba(252, 248, 238, 0.96),
+    0 0 0 5px rgba(45, 53, 63, 0.30),
+    0 12px 36px rgba(45, 53, 63, 0.22) !important;
+}
+#hero .image::after {
+  content: ''; position: absolute;
+  top: 19px; left: 0; right: 0;
+  width: 100%; aspect-ratio: 1;
+  border-radius: 14px;
+  background-image:
+    radial-gradient(ellipse 75% 80% at 50% 40%, transparent 55%, rgba(75, 85, 99, 0.45) 100%),
+    url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgdmlld0JveD0iMCAwIDYwIDYwIj4KICA8ZyBzdHJva2U9IiMyRDM1M0YiIHN0cm9rZS13aWR0aD0iMC4yMiIgZmlsbD0ibm9uZSIgb3BhY2l0eT0iMC41NSI+CiAgICA8cGF0aCBkPSJNMCAwIEMgMjAgLTEuNSA0MCAxLjUgNjAgMCIvPgogICAgPHBhdGggZD0iTTAgMi41IEMgMjAgMSA0MCA0IDYwIDIuNSIvPgogICAgPHBhdGggZD0iTTAgNSBDIDIwIDMuNSA0MCA2LjUgNjAgNSIvPgogICAgPHBhdGggZD0iTTAgNy41IEMgMjAgNiA0MCA5IDYwIDcuNSIvPgogICAgPHBhdGggZD0iTTAgMTAgQyAyMCA4LjUgNDAgMTEuNSA2MCAxMCIvPgogICAgPHBhdGggZD0iTTAgMTIuNSBDIDIwIDExIDQwIDE0IDYwIDEyLjUiLz4KICAgIDxwYXRoIGQ9Ik0wIDE1IEMgMjAgMTMuNSA0MCAxNi41IDYwIDE1Ii8+CiAgICA8cGF0aCBkPSJNMCAxNy41IEMgMjAgMTYgNDAgMTkgNjAgMTcuNSIvPgogICAgPHBhdGggZD0iTTAgMjAgQyAyMCAxOC41IDQwIDIxLjUgNjAgMjAiLz4KICAgIDxwYXRoIGQ9Ik0wIDIyLjUgQyAyMCAyMSA0MCAyNCA2MCAyMi41Ii8+CiAgICA8cGF0aCBkPSJNMCAyNSBDIDIwIDIzLjUgNDAgMjYuNSA2MCAyNSIvPgogICAgPHBhdGggZD0iTTAgMjcuNSBDIDIwIDI2IDQwIDI5IDYwIDI3LjUiLz4KICAgIDxwYXRoIGQ9Ik0wIDMwIEMgMjAgMjguNSA0MCAzMS41IDYwIDMwIi8+CiAgICA8cGF0aCBkPSJNMCAzMi41IEMgMjAgMzEgNDAgMzQgNjAgMzIuNSIvPgogICAgPHBhdGggZD0iTTAgMzUgQyAyMCAzMy41IDQwIDM2LjUgNjAgMzUiLz4KICAgIDxwYXRoIGQ9Ik0wIDM3LjUgQyAyMCAzNiA0MCAzOSA2MCAzNy41Ii8+CiAgICA8cGF0aCBkPSJNMCA0MCBDIDIwIDM4LjUgNDAgNDEuNSA2MCA0MCIvPgogICAgPHBhdGggZD0iTTAgNDIuNSBDIDIwIDQxIDQwIDQ0IDYwIDQyLjUiLz4KICAgIDxwYXRoIGQ9Ik0wIDQ1IEMgMjAgNDMuNSA0MCA0Ni41IDYwIDQ1Ii8+CiAgICA8cGF0aCBkPSJNMCA0Ny41IEMgMjAgNDYgNDAgNDkgNjAgNDcuNSIvPgogICAgPHBhdGggZD0iTTAgNTAgQyAyMCA0OC41IDQwIDUxLjUgNjAgNTAiLz4KICAgIDxwYXRoIGQ9Ik0wIDUyLjUgQyAyMCA1MSA0MCA1NCA2MCA1Mi41Ii8+CiAgICA8cGF0aCBkPSJNMCA1NSBDIDIwIDUzLjUgNDAgNTYuNSA2MCA1NSIvPgogICAgPHBhdGggZD0iTTAgNTcuNSBDIDIwIDU2IDQwIDU5IDYwIDU3LjUiLz4KICAgIDxwYXRoIGQ9Ik0wIDYwIEMgMjAgNTguNSA0MCA2MS41IDYwIDYwIi8+CiAgPC9nPgo8L3N2Zz4=");
+  background-size: 100% 100%, 60px 60px;
+  background-repeat: no-repeat, repeat;
+  mix-blend-mode: multiply;
+  opacity: 0.72;
+  pointer-events: none; z-index: 2;
+}
+</style>
+
