@@ -489,3 +489,85 @@ section h3.text-center, .title h2{
 })();
 </script>
 
+<style>
+/* ============================================================================
+   SITE-WIDE GRADIENT + STICKY NAVBAR + DARK-MODE CONTRAST
+   Promoted from /demos/hero-3.html (2026-06-06 08:40 CDT). One source of truth
+   for the look across every page (case studies, blog, about, contact, hero).
+   ============================================================================ */
+
+/* Page background — horizontal symmetric teal valley, fixed so scroll doesn't shift it */
+html { background: linear-gradient(to right, #D3E6EC 0%, #DFEDF1 25%, #EFF5F7 50%, #DFEDF1 75%, #D3E6EC 100%) !important; background-attachment: fixed !important; min-height: 100vh; }
+body, body.light { background: transparent !important; }
+section { background: transparent !important; }
+
+/* Sticky navbar pinned to viewport top + symmetric teal-white-teal gradient + permanent teal-blue shadow + no fade-up entrance */
+header { position: sticky !important; top: 0 !important; z-index: 50 !important; background: linear-gradient(to right, #D3E6EC 0%, #DEEDF1 18%, #E8F1F4 35%, #EFF5F7 50%, #E8F1F4 65%, #DEEDF1 82%, #D3E6EC 100%) !important; }
+header .navbar, header.showHeaderOnTop { box-shadow: 0px 8px 56px rgba(15, 80, 100, 0.16) !important; transition: none !important; }
+header .navbar.animate { animation: none !important; }
+
+/* Dark-mode bg pair (header + page) */
+body.dark, html.dark body { background: linear-gradient(to right, #0F2126 0%, #14292F 25%, #1A3038 50%, #14292F 75%, #0F2126 100%) !important; background-attachment: fixed !important; min-height: 100vh; }
+body.dark header { background: linear-gradient(to right, #0E1F25 0%, #14282F 18%, #1A3038 35%, #1E3742 50%, #1A3038 65%, #14282F 82%, #0E1F25 100%) !important; }
+body.dark header .navbar { box-shadow: 0px 8px 56px rgba(96, 188, 220, 0.20) !important; }
+body.dark section { background: transparent !important; }
+</style>
+
+<script>
+/* Dark-mode runtime contrast override (matches /demos/hero-3.html — CSS cascade
+   loses to the universal `* { color: #000 !important }` rule on every page, so
+   we paint inline styles instead. Reverts cleanly on light toggle. */
+(function () {
+  const DARK_COLORS = [
+    { sel: '#hero h1, #hero h2, #hero .subtitle, #hero p, #hero .hero-content, #hero .hero-content > p, #hero a.btn', color: '#E8EEF3', opacity: '1' },
+    { sel: '#hero .hero-stat .stat-number, .hero-stat .stat-number', color: '#E8EEF3', opacity: '1' },
+    { sel: '#hero .hero-stat .stat-label, .hero-stat .stat-label', color: '#E8EEF3', opacity: '0.78' },
+    { sel: '#hero .hero-resume-link, .hero-resume-link, a[href*="Resume"]', color: '#8FB4FF', opacity: '1' },
+    { sel: '.navbar .nav-link, .navbar-nav a', color: '#D8E0E8', opacity: '1' },
+    { sel: '.nav-social-icons .nav-social-ic svg, .nav-social-icons .nav-social-ic i', color: '#D8E0E8', fill: '#D8E0E8' },
+    { sel: '#footer, #footer *', color: '#C8D2DA', opacity: '1' },
+    /* Case-study / blog / about page bodies */
+    { sel: '#projects h1, #projects h2, #projects h3, #projects p, #projects .card-title, #projects .card-text', color: '#E8EEF3', opacity: '1' },
+    { sel: '#about h1, #about h2, #about h3, #about p, #about .content', color: '#E8EEF3', opacity: '1' },
+    { sel: '#experience h1, #experience h2, #experience h3, #experience p, #experience .nav-link, #experience .tab-pane', color: '#E8EEF3', opacity: '1' },
+    { sel: '#deepCaseStudy h1, #deepCaseStudy h2, #deepCaseStudy p, #deepCaseStudy *', color: '#E8EEF3', opacity: '1' },
+    { sel: 'main h1, main h2, main h3, main p, main li, main .post-title, main .post-entry, main .post-content, main .post-meta, main article', color: '#E8EEF3', opacity: '1' },
+  ];
+  const MARK = 'data-dark-applied';
+
+  function applyDark() {
+    for (const { sel, color, opacity, fill } of DARK_COLORS) {
+      document.querySelectorAll(sel).forEach((el) => {
+        if (color) el.style.setProperty('color', color, 'important');
+        if (opacity !== undefined) el.style.setProperty('opacity', opacity, 'important');
+        if (fill) el.style.setProperty('fill', fill, 'important');
+        el.setAttribute(MARK, '1');
+      });
+    }
+  }
+  function clearDark() {
+    document.querySelectorAll('[' + MARK + ']').forEach((el) => {
+      el.style.removeProperty('color');
+      el.style.removeProperty('opacity');
+      el.style.removeProperty('fill');
+      el.removeAttribute(MARK);
+    });
+  }
+  function sync() {
+    if (document.body.classList.contains('dark') || document.documentElement.classList.contains('dark')) {
+      applyDark();
+    } else {
+      clearDark();
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', sync);
+  } else {
+    sync();
+  }
+  const observer = new MutationObserver(sync);
+  observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+  observer.observe(document.body, { attributes: true, attributeFilter: ['class'] });
+})();
+</script>
+
