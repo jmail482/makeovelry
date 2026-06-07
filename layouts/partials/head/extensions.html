@@ -329,16 +329,24 @@ body.home footer .recent-posts,
   text-shadow:0 1px 4px rgba(255,255,255,0.9),0 0 8px rgba(255,255,255,0.6);
 }
 
-/* Align stats bar top line with the View Case Studies button top line */
-/* Align stats bar leftward so its left edge matches the photo's left edge */
-/* Combined into one rule with higher specificity to beat Variation A's margin shorthand */
-#hero .col-lg-8 .hero-stats{margin-top:60px !important;margin-left:-376px !important;}
-
-/* Align photo top with the Nishikawa headline top */
+/* Align photo top with the Nishikawa headline top — safe at all widths */
 #hero .image{padding-top:19px !important;}
 
-/* Shift entire hero block left by ~2 inches */
-#hero > .container{transform:translateX(-192px);}
+/* DESKTOP-ONLY positioning hacks — guarded to xl+ so mobile/tablet aren't broken */
+@media (min-width: 1200px){
+  /* Align stats bar top line with the View Case Studies button top line + leftward to match photo's left edge */
+  #hero .col-lg-8 .hero-stats{margin-top:60px !important;margin-left:-376px !important;}
+  /* Shift entire hero block left by ~2 inches */
+  #hero > .container{transform:translateX(-192px);}
+}
+@media (max-width: 1199.98px){
+  /* Reset any inherited transform / negative margin on smaller screens */
+  #hero > .container{transform:none !important;}
+  #hero .col-lg-8 .hero-stats{margin-left:0 !important;margin-top:1.5rem !important;}
+}
+
+/* Safety net: prevent any single rule from breaking the whole page with a horizontal scroll */
+html, body{overflow-x:clip;}
 </style>
 
 <style>
